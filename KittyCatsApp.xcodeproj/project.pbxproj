@@ -10,13 +10,17 @@
 		1DA4A235272806AA000B9E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A234272806AA000B9E04 /* AppDelegate.swift */; };
 		1DA4A237272806AA000B9E04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A236272806AA000B9E04 /* SceneDelegate.swift */; };
 		1DA4A239272806AA000B9E04 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A238272806AA000B9E04 /* MainViewController.swift */; };
-		1DA4A23C272806AA000B9E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA4A23A272806AA000B9E04 /* Main.storyboard */; };
 		1DA4A23F272806AA000B9E04 /* KittyCatsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A23D272806AA000B9E04 /* KittyCatsApp.xcdatamodeld */; };
 		1DA4A241272806AD000B9E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA4A240272806AD000B9E04 /* Assets.xcassets */; };
 		1DA4A244272806AD000B9E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA4A242272806AD000B9E04 /* LaunchScreen.storyboard */; };
 		1DA4A24F272806AE000B9E04 /* KittyCatsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A24E272806AE000B9E04 /* KittyCatsAppTests.swift */; };
 		1DA4A259272806AE000B9E04 /* KittyCatsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A258272806AE000B9E04 /* KittyCatsAppUITests.swift */; };
 		1DA4A25B272806AE000B9E04 /* KittyCatsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A25A272806AE000B9E04 /* KittyCatsAppUITestsLaunchTests.swift */; };
+		1DA4A26D27281A4C000B9E04 /* CatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A26C27281A4C000B9E04 /* CatModel.swift */; };
+		1DA4A26F27281C5C000B9E04 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A26E27281C5C000B9E04 /* API.swift */; };
+		1DA4A27127281C8E000B9E04 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A27027281C8E000B9E04 /* Service.swift */; };
+		1DE97C64272826A700095F80 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE97C63272826A600095F80 /* MainTableViewCell.swift */; };
+		1DE97C66272829B100095F80 /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE97C65272829B100095F80 /* CatViewModel.swift */; };
 		781BF1F55D224DDF64827662 /* Pods_KittyCatsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFB3B2EDD433981E403C5F6 /* Pods_KittyCatsAppTests.framework */; };
 		92DB02C302BFF432F4DE034C /* Pods_KittyCatsApp_KittyCatsAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3413153B6A110B53A25A4C /* Pods_KittyCatsApp_KittyCatsAppUITests.framework */; };
 		AEDD32F0624C2AEADF26A87D /* Pods_KittyCatsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD7C666CEE49B15B83CC154 /* Pods_KittyCatsApp.framework */; };
@@ -44,7 +48,6 @@
 		1DA4A234272806AA000B9E04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DA4A236272806AA000B9E04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1DA4A238272806AA000B9E04 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		1DA4A23B272806AA000B9E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DA4A23E272806AA000B9E04 /* KittyCatsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KittyCatsApp.xcdatamodel; sourceTree = "<group>"; };
 		1DA4A240272806AD000B9E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DA4A243272806AD000B9E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,11 @@
 		1DA4A254272806AE000B9E04 /* KittyCatsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittyCatsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA4A258272806AE000B9E04 /* KittyCatsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittyCatsAppUITests.swift; sourceTree = "<group>"; };
 		1DA4A25A272806AE000B9E04 /* KittyCatsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittyCatsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DA4A26C27281A4C000B9E04 /* CatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatModel.swift; sourceTree = "<group>"; };
+		1DA4A26E27281C5C000B9E04 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		1DA4A27027281C8E000B9E04 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		1DE97C63272826A600095F80 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		1DE97C65272829B100095F80 /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
 		28F9CAD8030F4422DA1D6BA2 /* Pods-KittyCatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KittyCatsApp.release.xcconfig"; path = "Target Support Files/Pods-KittyCatsApp/Pods-KittyCatsApp.release.xcconfig"; sourceTree = "<group>"; };
 		67609570B09900D925688A31 /* Pods-KittyCatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KittyCatsApp.debug.xcconfig"; path = "Target Support Files/Pods-KittyCatsApp/Pods-KittyCatsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		6D3413153B6A110B53A25A4C /* Pods_KittyCatsApp_KittyCatsAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KittyCatsApp_KittyCatsAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,7 +143,6 @@
 				1DA4A267272809A9000B9E04 /* Extensions */,
 				1DA4A234272806AA000B9E04 /* AppDelegate.swift */,
 				1DA4A236272806AA000B9E04 /* SceneDelegate.swift */,
-				1DA4A23A272806AA000B9E04 /* Main.storyboard */,
 				1DA4A240272806AD000B9E04 /* Assets.xcassets */,
 				1DA4A242272806AD000B9E04 /* LaunchScreen.storyboard */,
 				1DA4A245272806AD000B9E04 /* Info.plist */,
@@ -172,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				1DA4A238272806AA000B9E04 /* MainViewController.swift */,
+				1DE97C63272826A600095F80 /* MainTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +187,7 @@
 		1DA4A269272809BE000B9E04 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1DE97C65272829B100095F80 /* CatViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -186,6 +195,7 @@
 		1DA4A26A272809CB000B9E04 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1DA4A26C27281A4C000B9E04 /* CatModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +203,8 @@
 		1DA4A26B272809D9000B9E04 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				1DA4A26E27281C5C000B9E04 /* API.swift */,
+				1DA4A27027281C8E000B9E04 /* Service.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -207,7 +219,6 @@
 				D458836031FECF4BF7CFC986 /* Pods-KittyCatsAppTests.debug.xcconfig */,
 				BA8226E30761541CDD5F511B /* Pods-KittyCatsAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -222,6 +233,7 @@
 				1DA4A22D272806AA000B9E04 /* Sources */,
 				1DA4A22E272806AA000B9E04 /* Frameworks */,
 				1DA4A22F272806AA000B9E04 /* Resources */,
+				268031BB9E9CDA360922BB2D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,7 +252,6 @@
 				1DA4A246272806AE000B9E04 /* Sources */,
 				1DA4A247272806AE000B9E04 /* Frameworks */,
 				1DA4A248272806AE000B9E04 /* Resources */,
-				08F63CCDE4A876768F650B40 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,7 +333,6 @@
 			files = (
 				1DA4A244272806AD000B9E04 /* LaunchScreen.storyboard in Resources */,
 				1DA4A241272806AD000B9E04 /* Assets.xcassets in Resources */,
-				1DA4A23C272806AA000B9E04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,21 +353,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08F63CCDE4A876768F650B40 /* [CP] Embed Pods Frameworks */ = {
+		268031BB9E9CDA360922BB2D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KittyCatsApp/Pods-KittyCatsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KittyCatsApp/Pods-KittyCatsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KittyCatsApp/Pods-KittyCatsApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		75CF65CBB030970079BB8345 /* [CP] Check Pods Manifest.lock */ = {
@@ -451,8 +461,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DA4A239272806AA000B9E04 /* MainViewController.swift in Sources */,
+				1DA4A27127281C8E000B9E04 /* Service.swift in Sources */,
+				1DE97C64272826A700095F80 /* MainTableViewCell.swift in Sources */,
 				1DA4A235272806AA000B9E04 /* AppDelegate.swift in Sources */,
 				1DA4A23F272806AA000B9E04 /* KittyCatsApp.xcdatamodeld in Sources */,
+				1DE97C66272829B100095F80 /* CatViewModel.swift in Sources */,
+				1DA4A26D27281A4C000B9E04 /* CatModel.swift in Sources */,
+				1DA4A26F27281C5C000B9E04 /* API.swift in Sources */,
 				1DA4A237272806AA000B9E04 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,14 +505,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1DA4A23A272806AA000B9E04 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1DA4A23B272806AA000B9E04 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1DA4A242272806AD000B9E04 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
