@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DA4A235272806AA000B9E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A234272806AA000B9E04 /* AppDelegate.swift */; };
+		1DA4A237272806AA000B9E04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A236272806AA000B9E04 /* SceneDelegate.swift */; };
+		1DA4A239272806AA000B9E04 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A238272806AA000B9E04 /* MainViewController.swift */; };
+		1DA4A23C272806AA000B9E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA4A23A272806AA000B9E04 /* Main.storyboard */; };
+		1DA4A23F272806AA000B9E04 /* KittyCatsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A23D272806AA000B9E04 /* KittyCatsApp.xcdatamodeld */; };
+		1DA4A241272806AD000B9E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA4A240272806AD000B9E04 /* Assets.xcassets */; };
+		1DA4A244272806AD000B9E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA4A242272806AD000B9E04 /* LaunchScreen.storyboard */; };
+		1DA4A24F272806AE000B9E04 /* KittyCatsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A24E272806AE000B9E04 /* KittyCatsAppTests.swift */; };
+		1DA4A259272806AE000B9E04 /* KittyCatsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A258272806AE000B9E04 /* KittyCatsAppUITests.swift */; };
+		1DA4A25B272806AE000B9E04 /* KittyCatsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A25A272806AE000B9E04 /* KittyCatsAppUITestsLaunchTests.swift */; };
+		781BF1F55D224DDF64827662 /* Pods_KittyCatsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFB3B2EDD433981E403C5F6 /* Pods_KittyCatsAppTests.framework */; };
+		92DB02C302BFF432F4DE034C /* Pods_KittyCatsApp_KittyCatsAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3413153B6A110B53A25A4C /* Pods_KittyCatsApp_KittyCatsAppUITests.framework */; };
+		AEDD32F0624C2AEADF26A87D /* Pods_KittyCatsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD7C666CEE49B15B83CC154 /* Pods_KittyCatsApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DA4A24B272806AE000B9E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DA4A229272806AA000B9E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DA4A230272806AA000B9E04;
+			remoteInfo = KittyCatsApp;
+		};
+		1DA4A255272806AE000B9E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DA4A229272806AA000B9E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DA4A230272806AA000B9E04;
+			remoteInfo = KittyCatsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DA4A231272806AA000B9E04 /* KittyCatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KittyCatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA4A234272806AA000B9E04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DA4A236272806AA000B9E04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1DA4A238272806AA000B9E04 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1DA4A23B272806AA000B9E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DA4A23E272806AA000B9E04 /* KittyCatsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KittyCatsApp.xcdatamodel; sourceTree = "<group>"; };
+		1DA4A240272806AD000B9E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DA4A243272806AD000B9E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DA4A245272806AD000B9E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DA4A24A272806AE000B9E04 /* KittyCatsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittyCatsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA4A24E272806AE000B9E04 /* KittyCatsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittyCatsAppTests.swift; sourceTree = "<group>"; };
+		1DA4A254272806AE000B9E04 /* KittyCatsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittyCatsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA4A258272806AE000B9E04 /* KittyCatsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittyCatsAppUITests.swift; sourceTree = "<group>"; };
+		1DA4A25A272806AE000B9E04 /* KittyCatsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittyCatsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		28F9CAD8030F4422DA1D6BA2 /* Pods-KittyCatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KittyCatsApp.release.xcconfig"; path = "Target Support Files/Pods-KittyCatsApp/Pods-KittyCatsApp.release.xcconfig"; sourceTree = "<group>"; };
+		67609570B09900D925688A31 /* Pods-KittyCatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KittyCatsApp.debug.xcconfig"; path = "Target Support Files/Pods-KittyCatsApp/Pods-KittyCatsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6D3413153B6A110B53A25A4C /* Pods_KittyCatsApp_KittyCatsAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KittyCatsApp_KittyCatsAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD7C666CEE49B15B83CC154 /* Pods_KittyCatsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KittyCatsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		971EEA2D82965FCED4CBBD88 /* Pods-KittyCatsApp-KittyCatsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KittyCatsApp-KittyCatsAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-KittyCatsApp-KittyCatsAppUITests/Pods-KittyCatsApp-KittyCatsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AFB3B2EDD433981E403C5F6 /* Pods_KittyCatsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KittyCatsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8226E30761541CDD5F511B /* Pods-KittyCatsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KittyCatsAppTests.release.xcconfig"; path = "Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D458836031FECF4BF7CFC986 /* Pods-KittyCatsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KittyCatsAppTests.debug.xcconfig"; path = "Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD368C444DCE1B4038F84850 /* Pods-KittyCatsApp-KittyCatsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KittyCatsApp-KittyCatsAppUITests.release.xcconfig"; path = "Target Support Files/Pods-KittyCatsApp-KittyCatsAppUITests/Pods-KittyCatsApp-KittyCatsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DA4A22E272806AA000B9E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDD32F0624C2AEADF26A87D /* Pods_KittyCatsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA4A247272806AE000B9E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781BF1F55D224DDF64827662 /* Pods_KittyCatsAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA4A251272806AE000B9E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DB02C302BFF432F4DE034C /* Pods_KittyCatsApp_KittyCatsAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BE1BE739938D491F61F6EC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CD7C666CEE49B15B83CC154 /* Pods_KittyCatsApp.framework */,
+				6D3413153B6A110B53A25A4C /* Pods_KittyCatsApp_KittyCatsAppUITests.framework */,
+				9AFB3B2EDD433981E403C5F6 /* Pods_KittyCatsAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DA4A228272806AA000B9E04 = {
+			isa = PBXGroup;
+			children = (
+				1DA4A233272806AA000B9E04 /* KittyCatsApp */,
+				1DA4A24D272806AE000B9E04 /* KittyCatsAppTests */,
+				1DA4A257272806AE000B9E04 /* KittyCatsAppUITests */,
+				1DA4A232272806AA000B9E04 /* Products */,
+				3839984AD8C91DC6596C1415 /* Pods */,
+				1BE1BE739938D491F61F6EC7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1DA4A232272806AA000B9E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DA4A231272806AA000B9E04 /* KittyCatsApp.app */,
+				1DA4A24A272806AE000B9E04 /* KittyCatsAppTests.xctest */,
+				1DA4A254272806AE000B9E04 /* KittyCatsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DA4A233272806AA000B9E04 /* KittyCatsApp */ = {
+			isa = PBXGroup;
+			children = (
+				1DA4A26B272809D9000B9E04 /* Service */,
+				1DA4A26A272809CB000B9E04 /* Model */,
+				1DA4A269272809BE000B9E04 /* ViewModel */,
+				1DA4A268272809B4000B9E04 /* View */,
+				1DA4A267272809A9000B9E04 /* Extensions */,
+				1DA4A234272806AA000B9E04 /* AppDelegate.swift */,
+				1DA4A236272806AA000B9E04 /* SceneDelegate.swift */,
+				1DA4A23A272806AA000B9E04 /* Main.storyboard */,
+				1DA4A240272806AD000B9E04 /* Assets.xcassets */,
+				1DA4A242272806AD000B9E04 /* LaunchScreen.storyboard */,
+				1DA4A245272806AD000B9E04 /* Info.plist */,
+				1DA4A23D272806AA000B9E04 /* KittyCatsApp.xcdatamodeld */,
+			);
+			path = KittyCatsApp;
+			sourceTree = "<group>";
+		};
+		1DA4A24D272806AE000B9E04 /* KittyCatsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DA4A24E272806AE000B9E04 /* KittyCatsAppTests.swift */,
+			);
+			path = KittyCatsAppTests;
+			sourceTree = "<group>";
+		};
+		1DA4A257272806AE000B9E04 /* KittyCatsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DA4A258272806AE000B9E04 /* KittyCatsAppUITests.swift */,
+				1DA4A25A272806AE000B9E04 /* KittyCatsAppUITestsLaunchTests.swift */,
+			);
+			path = KittyCatsAppUITests;
+			sourceTree = "<group>";
+		};
+		1DA4A267272809A9000B9E04 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1DA4A268272809B4000B9E04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DA4A238272806AA000B9E04 /* MainViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1DA4A269272809BE000B9E04 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1DA4A26A272809CB000B9E04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1DA4A26B272809D9000B9E04 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3839984AD8C91DC6596C1415 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67609570B09900D925688A31 /* Pods-KittyCatsApp.debug.xcconfig */,
+				28F9CAD8030F4422DA1D6BA2 /* Pods-KittyCatsApp.release.xcconfig */,
+				971EEA2D82965FCED4CBBD88 /* Pods-KittyCatsApp-KittyCatsAppUITests.debug.xcconfig */,
+				FD368C444DCE1B4038F84850 /* Pods-KittyCatsApp-KittyCatsAppUITests.release.xcconfig */,
+				D458836031FECF4BF7CFC986 /* Pods-KittyCatsAppTests.debug.xcconfig */,
+				BA8226E30761541CDD5F511B /* Pods-KittyCatsAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DA4A230272806AA000B9E04 /* KittyCatsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA4A25E272806AE000B9E04 /* Build configuration list for PBXNativeTarget "KittyCatsApp" */;
+			buildPhases = (
+				B4521E945471705C4BAB49A8 /* [CP] Check Pods Manifest.lock */,
+				1DA4A22D272806AA000B9E04 /* Sources */,
+				1DA4A22E272806AA000B9E04 /* Frameworks */,
+				1DA4A22F272806AA000B9E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KittyCatsApp;
+			productName = KittyCatsApp;
+			productReference = 1DA4A231272806AA000B9E04 /* KittyCatsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DA4A249272806AE000B9E04 /* KittyCatsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA4A261272806AE000B9E04 /* Build configuration list for PBXNativeTarget "KittyCatsAppTests" */;
+			buildPhases = (
+				F7B69E051784994B4011A124 /* [CP] Check Pods Manifest.lock */,
+				1DA4A246272806AE000B9E04 /* Sources */,
+				1DA4A247272806AE000B9E04 /* Frameworks */,
+				1DA4A248272806AE000B9E04 /* Resources */,
+				08F63CCDE4A876768F650B40 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DA4A24C272806AE000B9E04 /* PBXTargetDependency */,
+			);
+			name = KittyCatsAppTests;
+			productName = KittyCatsAppTests;
+			productReference = 1DA4A24A272806AE000B9E04 /* KittyCatsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DA4A253272806AE000B9E04 /* KittyCatsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA4A264272806AE000B9E04 /* Build configuration list for PBXNativeTarget "KittyCatsAppUITests" */;
+			buildPhases = (
+				75CF65CBB030970079BB8345 /* [CP] Check Pods Manifest.lock */,
+				1DA4A250272806AE000B9E04 /* Sources */,
+				1DA4A251272806AE000B9E04 /* Frameworks */,
+				1DA4A252272806AE000B9E04 /* Resources */,
+				A47283FC83E6EF8E63557164 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DA4A256272806AE000B9E04 /* PBXTargetDependency */,
+			);
+			name = KittyCatsAppUITests;
+			productName = KittyCatsAppUITests;
+			productReference = 1DA4A254272806AE000B9E04 /* KittyCatsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DA4A229272806AA000B9E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					1DA4A230272806AA000B9E04 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					1DA4A249272806AE000B9E04 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1DA4A230272806AA000B9E04;
+					};
+					1DA4A253272806AE000B9E04 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1DA4A230272806AA000B9E04;
+					};
+				};
+			};
+			buildConfigurationList = 1DA4A22C272806AA000B9E04 /* Build configuration list for PBXProject "KittyCatsApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DA4A228272806AA000B9E04;
+			productRefGroup = 1DA4A232272806AA000B9E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DA4A230272806AA000B9E04 /* KittyCatsApp */,
+				1DA4A249272806AE000B9E04 /* KittyCatsAppTests */,
+				1DA4A253272806AE000B9E04 /* KittyCatsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DA4A22F272806AA000B9E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA4A244272806AD000B9E04 /* LaunchScreen.storyboard in Resources */,
+				1DA4A241272806AD000B9E04 /* Assets.xcassets in Resources */,
+				1DA4A23C272806AA000B9E04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA4A248272806AE000B9E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA4A252272806AE000B9E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08F63CCDE4A876768F650B40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75CF65CBB030970079BB8345 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KittyCatsApp-KittyCatsAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A47283FC83E6EF8E63557164 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KittyCatsApp-KittyCatsAppUITests/Pods-KittyCatsApp-KittyCatsAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KittyCatsApp-KittyCatsAppUITests/Pods-KittyCatsApp-KittyCatsAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KittyCatsApp-KittyCatsAppUITests/Pods-KittyCatsApp-KittyCatsAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4521E945471705C4BAB49A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KittyCatsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7B69E051784994B4011A124 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KittyCatsAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DA4A22D272806AA000B9E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA4A239272806AA000B9E04 /* MainViewController.swift in Sources */,
+				1DA4A235272806AA000B9E04 /* AppDelegate.swift in Sources */,
+				1DA4A23F272806AA000B9E04 /* KittyCatsApp.xcdatamodeld in Sources */,
+				1DA4A237272806AA000B9E04 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA4A246272806AE000B9E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA4A24F272806AE000B9E04 /* KittyCatsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA4A250272806AE000B9E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA4A259272806AE000B9E04 /* KittyCatsAppUITests.swift in Sources */,
+				1DA4A25B272806AE000B9E04 /* KittyCatsAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DA4A24C272806AE000B9E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DA4A230272806AA000B9E04 /* KittyCatsApp */;
+			targetProxy = 1DA4A24B272806AE000B9E04 /* PBXContainerItemProxy */;
+		};
+		1DA4A256272806AE000B9E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DA4A230272806AA000B9E04 /* KittyCatsApp */;
+			targetProxy = 1DA4A255272806AE000B9E04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DA4A23A272806AA000B9E04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DA4A23B272806AA000B9E04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DA4A242272806AD000B9E04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DA4A243272806AD000B9E04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DA4A25C272806AE000B9E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DA4A25D272806AE000B9E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DA4A25F272806AE000B9E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67609570B09900D925688A31 /* Pods-KittyCatsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VDUH7U8HTM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KittyCatsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabina-Huseynova.KittyCatsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1DA4A260272806AE000B9E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F9CAD8030F4422DA1D6BA2 /* Pods-KittyCatsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VDUH7U8HTM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KittyCatsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabina-Huseynova.KittyCatsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1DA4A262272806AE000B9E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D458836031FECF4BF7CFC986 /* Pods-KittyCatsAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VDUH7U8HTM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabina-Huseynova.KittyCatsAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KittyCatsApp.app/KittyCatsApp";
+			};
+			name = Debug;
+		};
+		1DA4A263272806AE000B9E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8226E30761541CDD5F511B /* Pods-KittyCatsAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VDUH7U8HTM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabina-Huseynova.KittyCatsAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KittyCatsApp.app/KittyCatsApp";
+			};
+			name = Release;
+		};
+		1DA4A265272806AE000B9E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971EEA2D82965FCED4CBBD88 /* Pods-KittyCatsApp-KittyCatsAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VDUH7U8HTM;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabina-Huseynova.KittyCatsAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KittyCatsApp;
+			};
+			name = Debug;
+		};
+		1DA4A266272806AE000B9E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD368C444DCE1B4038F84850 /* Pods-KittyCatsApp-KittyCatsAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VDUH7U8HTM;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabina-Huseynova.KittyCatsAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KittyCatsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DA4A22C272806AA000B9E04 /* Build configuration list for PBXProject "KittyCatsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA4A25C272806AE000B9E04 /* Debug */,
+				1DA4A25D272806AE000B9E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DA4A25E272806AE000B9E04 /* Build configuration list for PBXNativeTarget "KittyCatsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA4A25F272806AE000B9E04 /* Debug */,
+				1DA4A260272806AE000B9E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DA4A261272806AE000B9E04 /* Build configuration list for PBXNativeTarget "KittyCatsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA4A262272806AE000B9E04 /* Debug */,
+				1DA4A263272806AE000B9E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DA4A264272806AE000B9E04 /* Build configuration list for PBXNativeTarget "KittyCatsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA4A265272806AE000B9E04 /* Debug */,
+				1DA4A266272806AE000B9E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1DA4A23D272806AA000B9E04 /* KittyCatsApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1DA4A23E272806AA000B9E04 /* KittyCatsApp.xcdatamodel */,
+			);
+			currentVersion = 1DA4A23E272806AA000B9E04 /* KittyCatsApp.xcdatamodel */;
+			path = KittyCatsApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1DA4A229272806AA000B9E04 /* Project object */;
+}
