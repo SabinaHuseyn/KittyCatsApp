@@ -12,7 +12,7 @@ import RxCocoa
 
 class MainTableViewCell: UITableViewCell {
     
-     let productNameLabel : UILabel = {
+    let productNameLabel : UILabel = {
         let lbl = UILabel()
         lbl.textColor = .black
         lbl.font = UIFont.boldSystemFont(ofSize: 16)
@@ -20,10 +20,11 @@ class MainTableViewCell: UITableViewCell {
         return lbl
     }()
     
-     let productImage : UIImageView = {
+    let productImage : UIImageView = {
         let imgView = UIImageView()
         imgView.contentMode = .scaleAspectFit
         imgView.clipsToBounds = true
+        imgView.accessibilityIdentifier = "myImage"
         return imgView
     }()
     
@@ -41,7 +42,7 @@ class MainTableViewCell: UITableViewCell {
         
         productImage.widthAnchor.constraint(equalToConstant: 180).isActive = true
         productImage.heightAnchor.constraint(equalToConstant: 150).isActive = true
-
+        
         let stackView = UIStackView(arrangedSubviews: [productImage, productNameLabel])
         stackView.distribution = .fill
         stackView.axis = .horizontal

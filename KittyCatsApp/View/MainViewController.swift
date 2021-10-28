@@ -11,35 +11,25 @@ import RxSwift
 import RxCocoa
 
 class MainViewController: UIViewController {
-
+    
     var mainTableView: UITableView!
-
-    var catModels = BehaviorRelay<[ObservableViewModel.CatViewModel]>(value: [])
-    var observableViewModel = ObservableViewModel()
+    
+    var catModels = BehaviorRelay<[ObservableCatViewModel.CatViewModel]>(value: [])
+    var observableViewModel = ObservableCatViewModel()
     let disposeBag = DisposeBag()
     var callTimer: Timer?
-
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        observableViewModel.observableFetch()
+        observableFetch()
         timeInterval()
         setupMainTableView()
-        setupBindings()
         setupMainCell()
         
     }
-
-    func setupBindings() {
-        observableViewModel
-            .catModels
-            .observe(on: MainScheduler.instance)
-            .bind(to: self.catModels)
-            .disposed(by: disposeBag)
-}
     
     func setupMainTableView() {
-        let barHeight: CGFloat = UIApplication.shared.statusBarFrame.size.height
+        let barHeight: CGFloat = UIApplication.shared.statusBarFrame.size.height + 10
         let displayWidth: CGFloat = self.view.frame.width
         let displayHeight: CGFloat = self.view.frame.height
         
@@ -51,20 +41,29 @@ class MainViewController: UIViewController {
         self.mainTableView.keyboardDismissMode = .onDrag
         
     }
-//    MARK: - Timer fetching
+    
+    
+    //    MARK: - Rx Setup
     func timeInterval() {
         callTimer = Timer.scheduledTimer(timeInterval: 20, target: self, selector: #selector(timeToCall), userInfo: nil, repeats: true)
     }
     
     @objc func timeToCall() {
-        observableViewModel.observableFetch()
+        observableFetch()
     }
     
-//    MARK: - Rx Setup
+    func observableFetch() {
+        observableViewModel.fetchCats()
+            .observe(on: MainScheduler.instance)
+            .subscribe(onNext: { data in
+                self.catModels.accept(data)
+            })
+            .disposed(by: disposeBag)
+    }
     
     func setupMainCell() {
         
-            catModels
+        catModels
             .observe(on: MainScheduler.instance)
             .bind(to: mainTableView
                     .rx
@@ -78,9 +77,9 @@ class MainViewController: UIViewController {
                         cell.productNameLabel.text = "\(name)"
                         
                     }
-        
+                    
                 }
-    
+                
             }
                            .disposed(by: disposeBag)
     }

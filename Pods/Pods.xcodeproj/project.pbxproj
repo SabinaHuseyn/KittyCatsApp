@@ -31,6 +31,7 @@
 		09E4A424C9A4B6AF425B42861E50E5F0 /* UIBarButtonItem+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F532BAD9940A47E2BDC4E3E34AD9E694 /* UIBarButtonItem+Rx.swift */; };
 		0B2165491D9E7087D8C78C7A8128A9F0 /* UISegmentedControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A485C64E4976E06D1204B8507242A3 /* UISegmentedControl+Rx.swift */; };
 		0B9DCD15C61D78BD1C1A78565BC2B580 /* TestSchedulerVirtualTimeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DAB247CEBF3F962E218B2D49CBB5F7 /* TestSchedulerVirtualTimeConverter.swift */; };
+		0C38ACC4BFD47208A810D90A4D707908 /* Pods-KittyCatsAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B784712E1B0814B473765D243754250 /* Pods-KittyCatsAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D25D7CA8FE49743BC1A4CBFB72B0FBA /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7559590387B586F0372C8CAC9C87B /* Queue.swift */; };
 		0D6EED34C0779E07BBD4FCA04169A356 /* SerialDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294AE4FD72E6C4CC5D701932DCE925C /* SerialDispatchQueueScheduler.swift */; };
 		0D7B6FF8C492D77C003609B68CFABA1E /* UISearchController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1092AF5D591E75F7AAB3DC9778370DC5 /* UISearchController+Rx.swift */; };
@@ -44,6 +45,7 @@
 		122980E44B15C64CF0B14DC94D7EB5C9 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04767B32839499B20C331C715D1E4BBA /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		124764B91F74F2A66F95C5031B2C2950 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A6AECA5AE98A4F7887FB4AFEED9C24 /* Merge.swift */; };
 		12837DC929482E11BF9262B95AA23039 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3FFC8CBDEFE4F259149312A9E2717 /* Optional.swift */; };
+		13EC0D19042B9F35F4666638D27037FD /* Pods-KittyCatsAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB9C62C9E8C558CB461AB9486FA2B88 /* Pods-KittyCatsAppTests-dummy.m */; };
 		142C225A4399D1C34EE4099291E57FAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BE167EA9A3CEE64C73B79D3FC21689 /* Foundation.framework */; };
 		14D2C2DC6532CC4AAD73F205B9211DB8 /* RecursiveLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9B685280A46ED6AE4C695F62B9FC8 /* RecursiveLock.swift */; };
 		155D953401DF644E75F2ACE729D00DF2 /* Infallible+Bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0867D3D0461EDD1F83E467F2BCB963AB /* Infallible+Bind.swift */; };
@@ -93,7 +95,6 @@
 		28D5D9EEAE845C76C8079BD1C77BFE82 /* RxCollectionViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED71A672FDDDD2170AD5E7D46615935 /* RxCollectionViewDelegateProxy.swift */; };
 		28DDBE36EE067086F4925C830D668FBA /* KVORepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8D75FE910FB7E18C3362F78A03BD2 /* KVORepresentable.swift */; };
 		29FF13E23FD52E46D30530549410AD7C /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5412548CF36125E727323F372DE6D177 /* ImageTransition.swift */; };
-		2A32D34AE1F0F2821B38D079C6CFF2CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BE167EA9A3CEE64C73B79D3FC21689 /* Foundation.framework */; };
 		2AA71089897D86DE92DF80FF05E2A443 /* Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F51A5F6496B0AF7958C48612785586 /* Do.swift */; };
 		2BE89C24BFD3FB663E37C607C289B3B6 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5DF34A844AD6E83D1CB07581B83B9E /* RedirectHandler.swift */; };
 		2C5827B4703A1EBDDC428D06045741B2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6175B8E331FE2912FE8D5D68BA791F70 /* Queue.swift */; };
@@ -148,7 +149,6 @@
 		4DCA9775E5CCF599460BDB46E77F6FA4 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4765A45C95904BBE7F551816D3DA8C7C /* Kingfisher-dummy.m */; };
 		4DCD9C0E0AAE72A4E4696287FCBCDB9E /* VirtualTimeConverterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71925C95532E706436B015AD64FCE6EB /* VirtualTimeConverterType.swift */; };
 		4EB4328C78B36211BF7D50529327FD7C /* UINavigationController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85AC298B4215B56328F9AEACB08447A /* UINavigationController+Rx.swift */; };
-		4ED627F5E23D260513066C2C1A57CC5A /* Pods-KittyCatsAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A787680391AB9A84BE78DEE5053F1166 /* Pods-KittyCatsAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EE0F2D2112CE993AEA24549F5DB19BF /* UIControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09BB1DAF7E9588553BBCC7873F0CEBA /* UIControl+Rx.swift */; };
 		4EEFDF6835C00E5C89F12E7E7984DE07 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642FECFADBF158A3218CA6528E2CB29A /* Reactive.swift */; };
 		4EFD31D7DB8D26D9D031A2225A0C6AEC /* UIApplication+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75DCA966F6FF229A1E61A1651E03AEC /* UIApplication+Rx.swift */; };
@@ -177,7 +177,7 @@
 		59691189B7A014BB0230561AC0A489A6 /* RxCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 812E280F340CB1ED8C5964661A988229 /* RxCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59BC9047F4BEBBC06235608D974E230D /* NSTextAttachment+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA0012B59B3A0FFD1B1C8CA64431C15 /* NSTextAttachment+Kingfisher.swift */; };
 		5ADB30DD9A03859018550A999ACB0652 /* KFImageOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83E870293F5ACBE6F0902F090E32E04 /* KFImageOptions.swift */; };
-		5AEF803A028674034D4633BC862D5D5F /* Pods-KittyCatsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 463C4E084CB95BAD9D9AA06344051158 /* Pods-KittyCatsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AEF803A028674034D4633BC862D5D5F /* Pods-KittyCatsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4C35FDBB1DC2165897E7974457E281 /* Pods-KittyCatsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BC1C4E89AED5AD8321EF7942723A759 /* CombineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE7EF16FF4FCC83342B738E33D9420 /* CombineLatest.swift */; };
 		5CA00A7EE80BFAC924D387ABFD0C68DC /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083F0030EA6B3B480D75C201BCC125 /* Filter.swift */; };
 		5CCFA296BDDAF572575B7E8D3E9F6EC7 /* SingleAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557600BF3FBC226DB4FEB72539AE890 /* SingleAsync.swift */; };
@@ -244,12 +244,11 @@
 		8AEF0775CDF920AC2DBE0C725B59EC96 /* UIStepper+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B23BA500719BF7778968B62C1836F69 /* UIStepper+Rx.swift */; };
 		8B7686A732E13434E997809196B15955 /* UIRefreshControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4183DFDEF4A22B032EAFEB6E0088BBFD /* UIRefreshControl+Rx.swift */; };
 		8B9D55AA460645F8D2105F00B32B650D /* ScheduledDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFCFFD66616F7F7E47633D935D4A6F5 /* ScheduledDisposable.swift */; };
-		8CBAC0AB5DE6741B5AC1D9C301F900D4 /* Pods-KittyCatsAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894053D7F1BA60CB3A265BB525D75299 /* Pods-KittyCatsAppTests-dummy.m */; };
 		8E88FD91B7FFB14C11816DD9216E3C6D /* Completable+AndThen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C1FB5BB92EE67F70E30ABB9F353D6 /* Completable+AndThen.swift */; };
 		8EA5CC7EF28B004A8A813925E4F17F93 /* WKWebView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD72AEA3B3C09B0F8E08CE3FA0BB4A /* WKWebView+Rx.swift */; };
 		8FE0BD68EA39B931E49D9C038BE80B65 /* UIDatePicker+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7925ECF5C173C2ECC35086747BF1A3 /* UIDatePicker+Rx.swift */; };
 		900A5FE68576973B6741BBE6C9F5AF74 /* Catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75900E9EAF35933C8666DE0FD79AE1D /* Catch.swift */; };
-		9113A32348F1C6C3C84F7257E14F5F06 /* Pods-KittyCatsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FE67D9CC75FBE956A1FC536A67CF80 /* Pods-KittyCatsApp-dummy.m */; };
+		9113A32348F1C6C3C84F7257E14F5F06 /* Pods-KittyCatsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4491BC7F41C885472F3A9E67EA8931C3 /* Pods-KittyCatsApp-dummy.m */; };
 		9168B21A6CE3C61A2A106125E2A4D332 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A95E50BB4BBB85D6F1A7E3597DEA0 /* Debug.swift */; };
 		920FCAD30F2A1019853721E930D7C3CF /* SubscribeOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5576C033DE1D2BEBEC279217B8D571 /* SubscribeOn.swift */; };
 		92391D7FF09855EBFC4FB3F2D1DB2A02 /* XCTest+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39482A0C471A5302C70BEA0123925DB0 /* XCTest+Rx.swift */; };
@@ -290,6 +289,7 @@
 		AA72136147869451CF9CA5F0D3EB15BD /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E51B2C3010D30159D5702A671CF4D60 /* Platform.Darwin.swift */; };
 		AA7BBD3390AF2ECAFA1AD576BB69CE15 /* RxScrollViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BDC1320CE34E46D034F61B6054F8FE /* RxScrollViewDelegateProxy.swift */; };
 		AB4875CA5028C3C32274EC2CCDFE9066 /* NSSlider+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC187CAF69189C20DE5FFEC01601B4D1 /* NSSlider+Rx.swift */; };
+		AC7D412C32EE1660B3A315853E4DF4EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BE167EA9A3CEE64C73B79D3FC21689 /* Foundation.framework */; };
 		B1A8D0C90A1170C8B1A67F7A9611229A /* ObserverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460B510CA759BD066745066C25F1047C /* ObserverType.swift */; };
 		B1EB595FFEB4AB5C46ABB5F50D2F8764 /* RxBlocking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F4CBDC8076E83A1BC61A6A6E9F0726 /* RxBlocking-dummy.m */; };
 		B221234AA853FB26B4683114F859F61C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BE167EA9A3CEE64C73B79D3FC21689 /* Foundation.framework */; };
@@ -334,7 +334,7 @@
 		D544A538C64FF62927F3E434DBC8A68F /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D476F488A2EEC5F1FBA30097A7F1AE /* Sample.swift */; };
 		D583F8FC3BFE7CE7368F5FE75679F388 /* RxTableViewDataSourceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6129733795AE0AA499E10DC2CFD7EE /* RxTableViewDataSourceProxy.swift */; };
 		D603AA58EF97D461A57B2B1BCB883868 /* AVAssetImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971FE963A2A4EF5226B511AAB5CA71CB /* AVAssetImageDataProvider.swift */; };
-		D6446DFE9D0CFDF390CB8102DDB66B22 /* Pods-KittyCatsApp-KittyCatsAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBEBC350FA7448FEA85A68A823E243C /* Pods-KittyCatsApp-KittyCatsAppUITests-dummy.m */; };
+		D6446DFE9D0CFDF390CB8102DDB66B22 /* Pods-KittyCatsApp-KittyCatsAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 148E0B143891C4F3FF4AF423FE8FC62F /* Pods-KittyCatsApp-KittyCatsAppUITests-dummy.m */; };
 		D709A58FF6A694878122F7D24B4A9913 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2021677F38A063B9E81B3806463E884 /* Bag.swift */; };
 		D8A4FE44301CF797B3E9655FA9F80FA6 /* _RXObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 485140CAC61D2C82DFFA605384D5B179 /* _RXObjCRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAEFFE1673CFECED1E93D13817099737 /* Dematerialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD950B997FF0E21C272635F13E673A /* Dematerialize.swift */; };
@@ -394,7 +394,7 @@
 		F67D383361314B49E5F05DB63BDD1D19 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558E793599E37404242BC0F7F8C0A8C6 /* Switch.swift */; };
 		F6E1B45243EF2546837B9099C53770E2 /* RxTableViewReactiveArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE294490DF7C3B02F1CAB299BB58EC1C /* RxTableViewReactiveArrayDataSource.swift */; };
 		F6F9C34492E47A611E31D2D63F476F13 /* ItemEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91F0010E676BED606A4FED7CC16B83E /* ItemEvents.swift */; };
-		F777C43C4FB7746F06FB76A58165C2CC /* Pods-KittyCatsApp-KittyCatsAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71A15F7EDB20A52F5D3BB9EF510C37F9 /* Pods-KittyCatsApp-KittyCatsAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F777C43C4FB7746F06FB76A58165C2CC /* Pods-KittyCatsApp-KittyCatsAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9586BBE89A6A16CB80261F4A54B8F4B /* Pods-KittyCatsApp-KittyCatsAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7D41E6D5592018175DEFBE7DBBC4F2B /* Cancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41922C9180AEC83E56D9695255E6AF79 /* Cancelable.swift */; };
 		F89C351693522F78C6E85B6AAF7B76C4 /* RxCollectionViewDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE84662B2FB475D5D8F58A5573AE /* RxCollectionViewDataSourceType.swift */; };
 		F9537B023E24AC4A724E301F7E372491 /* KFImageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462D75D8F0D4D0A99207EF221C716ED /* KFImageProtocol.swift */; };
@@ -416,6 +416,13 @@
 			remoteInfo = RxRelay;
 		};
 		2BF4F04726B7B9EDF9442076FF5BC0D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8D93C508E21FFD4EE60D335DD6C22E3;
+			remoteInfo = RxTest;
+		};
+		3B7790334F7220747018F07666073A03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -478,7 +485,14 @@
 			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
 			remoteInfo = RxSwift;
 		};
-		B78D5543E854F293FAC90FBD5562CB94 /* PBXContainerItemProxy */ = {
+		B8056A30D6285B6CDB269FD5037D98C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
+			remoteInfo = RxSwift;
+		};
+		BD39A2E6C9A6EAECD81FD6C494869B5D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -498,6 +512,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
 			remoteInfo = Kingfisher;
+		};
+		E490A6176FE48EE97497CC9C10115878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F243B36381C0CE83CCFF789AC38F0D36;
+			remoteInfo = RxBlocking;
 		};
 		EA9920F30CD0431EB66587D3E3ABDC81 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -528,8 +549,8 @@
 		00DE4EF770FE1D5F700A90129781F317 /* ObservableType+PrimitiveSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableType+PrimitiveSequence.swift"; path = "RxSwift/Traits/PrimitiveSequence/ObservableType+PrimitiveSequence.swift"; sourceTree = "<group>"; };
 		013137F55CEA7636EB06AB9F671EDCB0 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Image/Placeholder.swift; sourceTree = "<group>"; };
 		01B72363FAE8EAD443A2D42A9D581EBF /* ImageBinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageBinder.swift; path = Sources/SwiftUI/ImageBinder.swift; sourceTree = "<group>"; };
+		026C54FF53DE24CE654A543C9AB3B3A0 /* Pods-KittyCatsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KittyCatsAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		027601970B2ECD69C07B1BD1ACD77CA5 /* CombineLatest+Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CombineLatest+Collection.swift"; path = "RxSwift/Observables/CombineLatest+Collection.swift"; sourceTree = "<group>"; };
-		029E94207E7000DBE56D9DD7D43AAE8A /* Pods-KittyCatsApp-KittyCatsAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KittyCatsApp-KittyCatsAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		031893FD3D882E436EC541DF783B1276 /* RxTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxTest; path = RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		034699D4C36CF1574F794C3824CBD694 /* AsyncSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncSubject.swift; path = RxSwift/Subjects/AsyncSubject.swift; sourceTree = "<group>"; };
 		03BA73ECE8943C9AD03FFFE5598C8AAF /* AtomicInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AtomicInt.swift; path = Platform/AtomicInt.swift; sourceTree = "<group>"; };
@@ -543,6 +564,7 @@
 		0867D3D0461EDD1F83E467F2BCB963AB /* Infallible+Bind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Infallible+Bind.swift"; path = "RxCocoa/Common/Infallible+Bind.swift"; sourceTree = "<group>"; };
 		08B9C9A916BFF2AA982A7482861BCDDB /* RxWKNavigationDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxWKNavigationDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxWKNavigationDelegateProxy.swift; sourceTree = "<group>"; };
 		094063CC49202192811C78848CA6BC99 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Views/Indicator.swift; sourceTree = "<group>"; };
+		0AC63ADBE52A81497C62DC68B22AF1EC /* Pods-KittyCatsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KittyCatsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0C1376A42BF4983BBB30121F85886487 /* RxBlocking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxBlocking-umbrella.h"; sourceTree = "<group>"; };
 		0C93F02B80B8C491337F042F1B9CC9DB /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "Platform/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
 		0C96E2BA0F9EABA228178D7600B747D5 /* WithLatestFrom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WithLatestFrom.swift; path = RxSwift/Observables/WithLatestFrom.swift; sourceTree = "<group>"; };
@@ -561,6 +583,7 @@
 		132A5BA53E35B711F7AB151F00769492 /* ObservableConvertibleType+Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableConvertibleType+Driver.swift"; path = "RxCocoa/Traits/Driver/ObservableConvertibleType+Driver.swift"; sourceTree = "<group>"; };
 		1338302BAFED888A0371A09F186586AE /* RxSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxSwift.modulemap; sourceTree = "<group>"; };
 		14593564AAA954A818FF390667611C73 /* Completable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Completable.swift; path = RxSwift/Traits/PrimitiveSequence/Completable.swift; sourceTree = "<group>"; };
+		148E0B143891C4F3FF4AF423FE8FC62F /* Pods-KittyCatsApp-KittyCatsAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KittyCatsApp-KittyCatsAppUITests-dummy.m"; sourceTree = "<group>"; };
 		153038ACD80581BBE74327083F2CC1C3 /* Driver+Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Driver+Subscription.swift"; path = "RxCocoa/Traits/Driver/Driver+Subscription.swift"; sourceTree = "<group>"; };
 		15BE167EA9A3CEE64C73B79D3FC21689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		16A14961DA4E32581DC6F145CFC45CB3 /* SchedulerServices+Emulation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SchedulerServices+Emulation.swift"; path = "RxSwift/Schedulers/SchedulerServices+Emulation.swift"; sourceTree = "<group>"; };
@@ -570,6 +593,7 @@
 		174859DD712749A676740AAAFD425739 /* Timeout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeout.swift; path = RxSwift/Observables/Timeout.swift; sourceTree = "<group>"; };
 		1748890A27E357C1FED670DC91B38469 /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = RxSwift/Observable.swift; sourceTree = "<group>"; };
 		17712A8942EB1CB9191759F4434A2A50 /* BooleanDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BooleanDisposable.swift; path = RxSwift/Disposables/BooleanDisposable.swift; sourceTree = "<group>"; };
+		186D79828EB1BD9BB5EA01C451048CB4 /* Pods-KittyCatsAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KittyCatsAppTests.modulemap"; sourceTree = "<group>"; };
 		18C99A86123A851D9E76349D1F021819 /* LockOwnerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockOwnerType.swift; path = RxSwift/Concurrency/LockOwnerType.swift; sourceTree = "<group>"; };
 		1900C8346B35CA7888A58F7E769948EA /* SharedSequence+Operators+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SharedSequence+Operators+arity.swift"; path = "RxCocoa/Traits/SharedSequence/SharedSequence+Operators+arity.swift"; sourceTree = "<group>"; };
 		192231408787931C6D09C9A109B80752 /* RxTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTest.swift; path = RxTest/RxTest.swift; sourceTree = "<group>"; };
@@ -590,7 +614,6 @@
 		207CBAEFE5D4B6BF7B63092280955BE8 /* HotObservable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HotObservable.swift; path = RxTest/HotObservable.swift; sourceTree = "<group>"; };
 		21CE017ACCFF3922ADCFDB954961F3D6 /* PublishRelay+Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PublishRelay+Signal.swift"; path = "RxCocoa/Traits/Signal/PublishRelay+Signal.swift"; sourceTree = "<group>"; };
 		2294E923B31345FCEFB44B49B309AC6A /* Take.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Take.swift; path = RxSwift/Observables/Take.swift; sourceTree = "<group>"; };
-		23D20D751B8DEE958B7ADE78995AF0DB /* Pods-KittyCatsApp-KittyCatsAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KittyCatsApp-KittyCatsAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		243D6DFF6D613C2BAB2A181EC0B59258 /* Zip+Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Zip+Collection.swift"; path = "RxSwift/Observables/Zip+Collection.swift"; sourceTree = "<group>"; };
 		24BA7F57A0FF0FE7F87A88006A89D824 /* ControlTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlTarget.swift; path = RxCocoa/Common/ControlTarget.swift; sourceTree = "<group>"; };
 		24C7D095E7D9144763E456B7EB78DCA2 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Sources/Networking/SessionDelegate.swift; sourceTree = "<group>"; };
@@ -599,7 +622,6 @@
 		25D3CF59F86B3C1A8C466B0AD82CED2C /* URLSession+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSession+Rx.swift"; path = "RxCocoa/Foundation/URLSession+Rx.swift"; sourceTree = "<group>"; };
 		25F63A531105CD4E1E4CCF5B918C5494 /* RxBlocking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxBlocking; path = RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		265C2845FDE4A3F1D2AA7B2858CB5A20 /* AnyObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyObserver.swift; path = RxSwift/AnyObserver.swift; sourceTree = "<group>"; };
-		27003CB3AF2C8C0C7AAFE6A0B30E256F /* Pods-KittyCatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KittyCatsApp.release.xcconfig"; sourceTree = "<group>"; };
 		2748085306890193796B6C69A9F10790 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/Networking/RequestModifier.swift; sourceTree = "<group>"; };
 		293801C698673F37E5D0F5394BF76A44 /* AuthenticationChallengeResponsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationChallengeResponsable.swift; path = Sources/Networking/AuthenticationChallengeResponsable.swift; sourceTree = "<group>"; };
 		29A8B593AF6A65BAD15E4956F39B0652 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/General/KingfisherManager.swift; sourceTree = "<group>"; };
@@ -612,7 +634,6 @@
 		2D42333B3702769A43210A8F59E114FF /* Platform.Linux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Linux.swift; path = Platform/Platform.Linux.swift; sourceTree = "<group>"; };
 		2DE3FFC8CBDEFE4F259149312A9E2717 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = RxSwift/Observables/Optional.swift; sourceTree = "<group>"; };
 		2E0A2C79441EB38908033DAFE62FE1A1 /* HistoricalSchedulerTimeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoricalSchedulerTimeConverter.swift; path = RxSwift/Schedulers/HistoricalSchedulerTimeConverter.swift; sourceTree = "<group>"; };
-		2EBEBC350FA7448FEA85A68A823E243C /* Pods-KittyCatsApp-KittyCatsAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KittyCatsApp-KittyCatsAppUITests-dummy.m"; sourceTree = "<group>"; };
 		2F7CE95ECA15230B91EC2FE0D6490847 /* ObservableConvertibleType+SharedSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableConvertibleType+SharedSequence.swift"; path = "RxCocoa/Traits/SharedSequence/ObservableConvertibleType+SharedSequence.swift"; sourceTree = "<group>"; };
 		313E6C103A8618A70249E99B4DDE6D20 /* Reduce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reduce.swift; path = RxSwift/Observables/Reduce.swift; sourceTree = "<group>"; };
 		31663C3C93CF5CE61708B44E209080C8 /* RxCocoa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCocoa.swift; path = RxCocoa/RxCocoa.swift; sourceTree = "<group>"; };
@@ -625,6 +646,7 @@
 		368165AC4928A68883983D99D06CCE41 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
 		3688471E7F32B908337CBEECDA6C611C /* Platform.Linux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Linux.swift; path = Platform/Platform.Linux.swift; sourceTree = "<group>"; };
 		36AFC184FCCA06CAE079A09049180CAB /* AsyncLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncLock.swift; path = RxSwift/Concurrency/AsyncLock.swift; sourceTree = "<group>"; };
+		373C56B4A49CCAB3DF85F783650E11AB /* Pods-KittyCatsApp-KittyCatsAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KittyCatsApp-KittyCatsAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3818D491382951C4A2301D358580CD8C /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = Platform/DataStructures/Queue.swift; sourceTree = "<group>"; };
 		38A43BE8453838B625EDE5E5539110A8 /* Concat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concat.swift; path = RxSwift/Observables/Concat.swift; sourceTree = "<group>"; };
 		39482A0C471A5302C70BEA0123925DB0 /* XCTest+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCTest+Rx.swift"; path = "RxTest/XCTest+Rx.swift"; sourceTree = "<group>"; };
@@ -633,6 +655,7 @@
 		3AE01CFD911F07C6F85018989E323843 /* Platform.Darwin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Darwin.swift; path = Platform/Platform.Darwin.swift; sourceTree = "<group>"; };
 		3B181EC2FC23BE111E6071C371B77D1E /* CPListItem+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CPListItem+Kingfisher.swift"; path = "Sources/Extensions/CPListItem+Kingfisher.swift"; sourceTree = "<group>"; };
 		3B23BA500719BF7778968B62C1836F69 /* UIStepper+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStepper+Rx.swift"; path = "RxCocoa/iOS/UIStepper+Rx.swift"; sourceTree = "<group>"; };
+		3C38FAFB8C84C7246F5B34B1895F185B /* Pods-KittyCatsAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KittyCatsAppTests-Info.plist"; sourceTree = "<group>"; };
 		3CAC905B3AEDE375DC5962CD65003811 /* ReplayRelay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplayRelay.swift; path = RxRelay/ReplayRelay.swift; sourceTree = "<group>"; };
 		3D694B43FC065211A75217E6318A04E5 /* PriorityQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriorityQueue.swift; path = Platform/DataStructures/PriorityQueue.swift; sourceTree = "<group>"; };
 		3DA02DC8B74E568236C4BC65D1EE4F8E /* DisposeBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBase.swift; path = RxSwift/Disposables/DisposeBase.swift; sourceTree = "<group>"; };
@@ -645,10 +668,9 @@
 		41F8ADCB05C20EE79D5B484E471A634E /* RxSearchControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxSearchControllerDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxSearchControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		42A3852F60A2D8A1733DCF9E1C2ECA94 /* Decode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decode.swift; path = RxSwift/Observables/Decode.swift; sourceTree = "<group>"; };
 		42C182450BF6F3F405AF2D8F5A9FCB70 /* DelaySubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelaySubscription.swift; path = RxSwift/Observables/DelaySubscription.swift; sourceTree = "<group>"; };
-		4338497338CADA282B03611062AC12EA /* Pods-KittyCatsAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KittyCatsAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4491BC7F41C885472F3A9E67EA8931C3 /* Pods-KittyCatsApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KittyCatsApp-dummy.m"; sourceTree = "<group>"; };
 		44DD663BEF0AB363668588303D63DAD7 /* RxCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxCocoa-dummy.m"; sourceTree = "<group>"; };
 		460B510CA759BD066745066C25F1047C /* ObserverType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverType.swift; path = RxSwift/ObserverType.swift; sourceTree = "<group>"; };
-		463C4E084CB95BAD9D9AA06344051158 /* Pods-KittyCatsApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KittyCatsApp-umbrella.h"; sourceTree = "<group>"; };
 		46B7C8ECC51666D08A74E3AF14424AF4 /* SchedulerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchedulerType.swift; path = RxSwift/SchedulerType.swift; sourceTree = "<group>"; };
 		46F401F5AF3131740231D55DF9A51F24 /* HistoricalScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoricalScheduler.swift; path = RxSwift/Schedulers/HistoricalScheduler.swift; sourceTree = "<group>"; };
 		473E3455C70D15F864FE43D9B7D5512B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
@@ -663,13 +685,17 @@
 		4A3C1FB5BB92EE67F70E30ABB9F353D6 /* Completable+AndThen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Completable+AndThen.swift"; path = "RxSwift/Traits/PrimitiveSequence/Completable+AndThen.swift"; sourceTree = "<group>"; };
 		4AAB8DBC5BF0D9AB4E9CDC49588B6E09 /* UICollectionView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Rx.swift"; path = "RxCocoa/iOS/UICollectionView+Rx.swift"; sourceTree = "<group>"; };
 		4B3F1194EB6D463F7341140EB07D67DE /* PublishSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PublishSubject.swift; path = RxSwift/Subjects/PublishSubject.swift; sourceTree = "<group>"; };
+		4B8DAF4E4DF0114B089F6137D8C94672 /* Pods-KittyCatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KittyCatsApp.release.xcconfig"; sourceTree = "<group>"; };
 		4B96AE7C194E2FD825C02F142F09BC25 /* SynchronizedOnType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedOnType.swift; path = RxSwift/Concurrency/SynchronizedOnType.swift; sourceTree = "<group>"; };
 		4BD9B685280A46ED6AE4C695F62B9FC8 /* RecursiveLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveLock.swift; path = Platform/RecursiveLock.swift; sourceTree = "<group>"; };
+		4C1D88C6D39F6D2D6C3209167A4DDF63 /* Pods-KittyCatsApp-KittyCatsAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KittyCatsApp-KittyCatsAppUITests.modulemap"; sourceTree = "<group>"; };
 		4C83259B27E418BF557B3705D54AFB3F /* Disposables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposables.swift; path = RxSwift/Disposables/Disposables.swift; sourceTree = "<group>"; };
+		4DB9C62C9E8C558CB461AB9486FA2B88 /* Pods-KittyCatsAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KittyCatsAppTests-dummy.m"; sourceTree = "<group>"; };
 		4DCFE909E3E622DC6ACC5761047B6995 /* Disposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposable.swift; path = RxSwift/Disposable.swift; sourceTree = "<group>"; };
 		4E7F975EBD8379456AB57A968BA1BB89 /* ControlProperty+Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ControlProperty+Driver.swift"; path = "RxCocoa/Traits/Driver/ControlProperty+Driver.swift"; sourceTree = "<group>"; };
 		4ECD72AEA3B3C09B0F8E08CE3FA0BB4A /* WKWebView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKWebView+Rx.swift"; path = "RxCocoa/iOS/WKWebView+Rx.swift"; sourceTree = "<group>"; };
 		4F0D3CBF254875C5380E2083E2DD75B2 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/Utility/String+MD5.swift"; sourceTree = "<group>"; };
+		4F4C35FDBB1DC2165897E7974457E281 /* Pods-KittyCatsApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KittyCatsApp-umbrella.h"; sourceTree = "<group>"; };
 		4FBAD1F7A96BA0ECFD168B92513A8EE7 /* SkipWhile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkipWhile.swift; path = RxSwift/Observables/SkipWhile.swift; sourceTree = "<group>"; };
 		506D17F3664EF49F5F052DBB02517BB5 /* Bag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = Platform/DataStructures/Bag.swift; sourceTree = "<group>"; };
 		509B12238182C4067D3CE330B4CFCF96 /* NSButton+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSButton+Rx.swift"; path = "RxCocoa/macOS/NSButton+Rx.swift"; sourceTree = "<group>"; };
@@ -678,7 +704,6 @@
 		52A69BC65ADC36E49B7B60173D95177D /* ImageDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDrawing.swift; path = Sources/Image/ImageDrawing.swift; sourceTree = "<group>"; };
 		52AD12A89F15CBDC100C407C8553A3C5 /* Bag+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bag+Rx.swift"; path = "RxSwift/Extensions/Bag+Rx.swift"; sourceTree = "<group>"; };
 		53801F0326A3C552968696069ED29706 /* DistinctUntilChanged.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DistinctUntilChanged.swift; path = RxSwift/Observables/DistinctUntilChanged.swift; sourceTree = "<group>"; };
-		5386381A5228A16CB41387B9C8FBCF15 /* Pods-KittyCatsApp-KittyCatsAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KittyCatsApp-KittyCatsAppUITests.modulemap"; sourceTree = "<group>"; };
 		5412548CF36125E727323F372DE6D177 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/Image/ImageTransition.swift; sourceTree = "<group>"; };
 		5542A3CB4D3DB79FCD6A7C0FC2A8D822 /* Bag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = Platform/DataStructures/Bag.swift; sourceTree = "<group>"; };
 		5545F2F293335A6347C9A34A9512B611 /* ObservableType+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableType+Extensions.swift"; path = "RxSwift/ObservableType+Extensions.swift"; sourceTree = "<group>"; };
@@ -693,12 +718,15 @@
 		566DB638BB7E2C6768C937ECD6AB49B1 /* RxSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSwift-umbrella.h"; sourceTree = "<group>"; };
 		56D476F488A2EEC5F1FBA30097A7F1AE /* Sample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sample.swift; path = RxSwift/Observables/Sample.swift; sourceTree = "<group>"; };
 		56FDD969E1DCE5777CC10E862A1E903B /* RxTextViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTextViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTextViewDelegateProxy.swift; sourceTree = "<group>"; };
+		57A3AF555EDF192609A2E60A747A6F56 /* Pods-KittyCatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KittyCatsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5824A7E88E9F38F7F0955B16F6F829CF /* RxSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSwift-prefix.pch"; sourceTree = "<group>"; };
 		59A485C64E4976E06D1204B8507242A3 /* UISegmentedControl+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISegmentedControl+Rx.swift"; path = "RxCocoa/iOS/UISegmentedControl+Rx.swift"; sourceTree = "<group>"; };
 		5A7BBFF2D02B29FC29D4DE87DFD5E8EE /* AsSingle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsSingle.swift; path = RxSwift/Observables/AsSingle.swift; sourceTree = "<group>"; };
+		5A7D93CDE07AD5C44A3C6F0675DC9C22 /* Pods-KittyCatsApp-KittyCatsAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KittyCatsApp-KittyCatsAppUITests-frameworks.sh"; sourceTree = "<group>"; };
 		5C370F9C5A6FBCAFD7C91C0041A4C901 /* Kingfisher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.release.xcconfig; sourceTree = "<group>"; };
 		5C3C09F4F4C9F5B1EE493142574631FB /* Repeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Repeat.swift; path = RxSwift/Observables/Repeat.swift; sourceTree = "<group>"; };
 		5CA9368A1653C02119B1F24F34A93B49 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = RxSwift/Observables/Map.swift; sourceTree = "<group>"; };
+		5CD0794344CF80BCAAFF829F3B3E53E7 /* Pods-KittyCatsApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KittyCatsApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5D1DC469FC08F1BD5A2879F6FA1F5986 /* RxRelay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxRelay-prefix.pch"; sourceTree = "<group>"; };
 		5DA81E8C496CB778C69AC27F46AF49D4 /* UITableView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Rx.swift"; path = "RxCocoa/iOS/UITableView+Rx.swift"; sourceTree = "<group>"; };
 		5E5DF34A844AD6E83D1CB07581B83B9E /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Sources/Networking/RedirectHandler.swift; sourceTree = "<group>"; };
@@ -706,21 +734,21 @@
 		5FD1460E812B43195993BE1547DCC9B0 /* Enumerated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enumerated.swift; path = RxSwift/Observables/Enumerated.swift; sourceTree = "<group>"; };
 		6175B8E331FE2912FE8D5D68BA791F70 /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = Platform/DataStructures/Queue.swift; sourceTree = "<group>"; };
 		61C3CF4C82D9329C9B2BAA158DEECC41 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		626E63C1695F3C0CFD7C0306C9F32671 /* Pods-KittyCatsApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KittyCatsApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6332230510751705E3985F5FE7149C5A /* RxCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxCocoa.release.xcconfig; sourceTree = "<group>"; };
 		63E4400320065ECE9D5416F9F3BCC23C /* RxTextStorageDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTextStorageDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTextStorageDelegateProxy.swift; sourceTree = "<group>"; };
 		642FECFADBF158A3218CA6528E2CB29A /* Reactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reactive.swift; path = RxSwift/Reactive.swift; sourceTree = "<group>"; };
 		64D7FB8790247C3F81C913BA9DF4393E /* Range.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Range.swift; path = RxSwift/Observables/Range.swift; sourceTree = "<group>"; };
 		66D80198BFA51563DDC94560003BC5C5 /* DelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxy.swift; path = RxCocoa/Common/DelegateProxy.swift; sourceTree = "<group>"; };
 		66DC34B479DFC485C435CD6D717B59A4 /* ControlEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlEvent.swift; path = RxCocoa/Traits/ControlEvent.swift; sourceTree = "<group>"; };
-		6720D880BCEF2D0BD0D947AA69B552A3 /* Pods-KittyCatsApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KittyCatsApp-Info.plist"; sourceTree = "<group>"; };
 		67BA738BECD8CD466C588020AD2CE075 /* RxTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxTest.debug.xcconfig; sourceTree = "<group>"; };
 		681B3768FF0F4BFF40591191E4E9BA79 /* Date+Dispatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Dispatch.swift"; path = "RxSwift/Date+Dispatch.swift"; sourceTree = "<group>"; };
+		69497BEBAF652D7B890F043011818B4F /* Pods-KittyCatsApp-KittyCatsAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KittyCatsApp-KittyCatsAppUITests-Info.plist"; sourceTree = "<group>"; };
 		6A89869D70F315C69ABE91D708B089B8 /* UITextField+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Rx.swift"; path = "RxCocoa/iOS/UITextField+Rx.swift"; sourceTree = "<group>"; };
 		6ACBD279E511A2630A9D99BB0622FD0E /* AddRef.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AddRef.swift; path = RxSwift/Observables/AddRef.swift; sourceTree = "<group>"; };
 		6ADF76D183C845E2FAFCB656D5904DCA /* Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Create.swift; path = RxSwift/Observables/Create.swift; sourceTree = "<group>"; };
 		6AFCFFD66616F7F7E47633D935D4A6F5 /* ScheduledDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledDisposable.swift; path = RxSwift/Disposables/ScheduledDisposable.swift; sourceTree = "<group>"; };
 		6B2AB48D494CA106C8A750A63FD65F29 /* RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxSwift.debug.xcconfig; sourceTree = "<group>"; };
+		6DC3863B05D7E8139B2BA836C004CC17 /* Pods-KittyCatsAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KittyCatsAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6E09B4D91D3DAE878DB0B9D18AA23BA5 /* Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rx.swift; path = RxSwift/Rx.swift; sourceTree = "<group>"; };
 		6E4DD076A4621748C42403A914972980 /* InfiniteSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteSequence.swift; path = Platform/DataStructures/InfiniteSequence.swift; sourceTree = "<group>"; };
 		6E51B2C3010D30159D5702A671CF4D60 /* Platform.Darwin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Darwin.swift; path = Platform/Platform.Darwin.swift; sourceTree = "<group>"; };
@@ -732,8 +760,6 @@
 		70930901EFC807FC4C6F4ED88AD1CAE1 /* RxRelay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxRelay-Info.plist"; sourceTree = "<group>"; };
 		715E89876F9CC42E5268DE53D70EDFD8 /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/Cache/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
 		71925C95532E706436B015AD64FCE6EB /* VirtualTimeConverterType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VirtualTimeConverterType.swift; path = RxSwift/Schedulers/VirtualTimeConverterType.swift; sourceTree = "<group>"; };
-		71A15F7EDB20A52F5D3BB9EF510C37F9 /* Pods-KittyCatsApp-KittyCatsAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KittyCatsApp-KittyCatsAppUITests-umbrella.h"; sourceTree = "<group>"; };
-		7257EFE289F772079A177867BA33B349 /* Pods-KittyCatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KittyCatsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		72AD61F4D7ED59FD833F08D181F64E5F /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Utility/Box.swift; sourceTree = "<group>"; };
 		72C25060E1625A17332CAAC14EBC67A7 /* DefaultIfEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultIfEmpty.swift; path = RxSwift/Observables/DefaultIfEmpty.swift; sourceTree = "<group>"; };
 		733E2EE9FC6B203D5B3439F545444F40 /* RxBlocking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxBlocking.modulemap; sourceTree = "<group>"; };
@@ -766,7 +792,6 @@
 		812E280F340CB1ED8C5964661A988229 /* RxCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxCocoa-umbrella.h"; sourceTree = "<group>"; };
 		8297947AA385C4BEC94097BE50D84872 /* TestableObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestableObserver.swift; path = RxTest/TestableObserver.swift; sourceTree = "<group>"; };
 		82CAA67BC8FF729812AD25246FBBF178 /* InfiniteSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteSequence.swift; path = Platform/DataStructures/InfiniteSequence.swift; sourceTree = "<group>"; };
-		82F9DF96D09D914F6D2D56818930FEEF /* Pods-KittyCatsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KittyCatsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		83E36146A29D4306B88F2707E58F0768 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = RxSwift/Errors.swift; sourceTree = "<group>"; };
 		83EE1EA77E53915E8CDD8B2FD1DFE088 /* NSObject+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Rx.swift"; path = "RxCocoa/Foundation/NSObject+Rx.swift"; sourceTree = "<group>"; };
 		83F51A5F6496B0AF7958C48612785586 /* Do.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Do.swift; path = RxSwift/Observables/Do.swift; sourceTree = "<group>"; };
@@ -780,15 +805,19 @@
 		8769B2E9ACBC591F30C452DA286F88A2 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = RxSwift/Observables/Error.swift; sourceTree = "<group>"; };
 		87F5200730286EF9406AE32B27F8251C /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
 		886CA69B125FC2AF4F4CA9D3CD172555 /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/Views/AnimatedImageView.swift; sourceTree = "<group>"; };
-		894053D7F1BA60CB3A265BB525D75299 /* Pods-KittyCatsAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KittyCatsAppTests-dummy.m"; sourceTree = "<group>"; };
+		8B784712E1B0814B473765D243754250 /* Pods-KittyCatsAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KittyCatsAppTests-umbrella.h"; sourceTree = "<group>"; };
 		8C89F8C51745B0FF082268691D28B811 /* UIActivityIndicatorView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIActivityIndicatorView+Rx.swift"; path = "RxCocoa/iOS/UIActivityIndicatorView+Rx.swift"; sourceTree = "<group>"; };
 		8D05F189668E5A3F2BEDA895459A615A /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = RxRelay/Utils.swift; sourceTree = "<group>"; };
 		8D157F0CFA80DF1D2BB5BCDEFE3D1545 /* RxCocoaObjCRuntimeError+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RxCocoaObjCRuntimeError+Extensions.swift"; path = "RxCocoa/Common/RxCocoaObjCRuntimeError+Extensions.swift"; sourceTree = "<group>"; };
+		8D593A0D722DA4DECCA90F0D47BC78F5 /* Pods-KittyCatsApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KittyCatsApp-Info.plist"; sourceTree = "<group>"; };
+		8EF17075187362311ED2FA621BA79179 /* Pods-KittyCatsApp-KittyCatsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KittyCatsApp-KittyCatsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F276B977A355379583284484E0BA17A /* Recorded+Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Recorded+Event.swift"; path = "RxTest/Recorded+Event.swift"; sourceTree = "<group>"; };
 		8F2A37DC5FD06A6D2DEDB52D024567C1 /* DispatchQueueConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchQueueConfiguration.swift; path = RxSwift/Schedulers/Internal/DispatchQueueConfiguration.swift; sourceTree = "<group>"; };
 		900130EF71FBBFEADBEE73E234688407 /* RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxSwift.release.xcconfig; sourceTree = "<group>"; };
+		90AC98C68DCD42CA998A038136CA157D /* Pods-KittyCatsAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KittyCatsAppTests-frameworks.sh"; sourceTree = "<group>"; };
 		90C62EE3324CE06CA1F8BA29047AF59B /* WKInterfaceImage+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKInterfaceImage+Kingfisher.swift"; path = "Sources/Extensions/WKInterfaceImage+Kingfisher.swift"; sourceTree = "<group>"; };
 		90FC59C6F5AAE269120777A380410B9F /* ImageDataProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProcessor.swift; path = Sources/Networking/ImageDataProcessor.swift; sourceTree = "<group>"; };
+		92BE4EB6CDE1C47F47F3CD3A50128768 /* Pods-KittyCatsApp-KittyCatsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KittyCatsApp-KittyCatsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		92EAB6D157E5F52A1154A74793F8CF87 /* TestScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestScheduler.swift; path = RxTest/Schedulers/TestScheduler.swift; sourceTree = "<group>"; };
 		93A5579A30E6286CCA9D1BDA15EDA566 /* BinaryDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDisposable.swift; path = RxSwift/Disposables/BinaryDisposable.swift; sourceTree = "<group>"; };
 		93BCE84AA09C64CA1FFC398D64995B90 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/Networking/ImageDownloader.swift; sourceTree = "<group>"; };
@@ -802,13 +831,12 @@
 		98B03FC726DA8F1223E824C587395554 /* SynchronizedUnsubscribeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedUnsubscribeType.swift; path = RxSwift/Concurrency/SynchronizedUnsubscribeType.swift; sourceTree = "<group>"; };
 		9924CC9D9F6EC839AB27640972FFA587 /* RxTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTarget.swift; path = RxCocoa/Common/RxTarget.swift; sourceTree = "<group>"; };
 		997E294113B4B3E2C84D860A266F2569 /* Kingfisher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kingfisher-Info.plist"; sourceTree = "<group>"; };
-		9B300A1C7A5F0F55FCD5957DF165B1E3 /* Pods-KittyCatsApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KittyCatsApp-frameworks.sh"; sourceTree = "<group>"; };
 		9B48EFDBE462182F671E736261B6D81E /* ObservableConvertibleType+Blocking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableConvertibleType+Blocking.swift"; path = "RxBlocking/ObservableConvertibleType+Blocking.swift"; sourceTree = "<group>"; };
-		9C560E7D20DFC6806F8DBBD8CD9AC5B8 /* Pods-KittyCatsApp-KittyCatsAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KittyCatsApp-KittyCatsAppUITests-frameworks.sh"; sourceTree = "<group>"; };
 		9D65A968B2F51393C9E8D50F31DFCF7E /* NSObject+Rx+KVORepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Rx+KVORepresentable.swift"; path = "RxCocoa/Foundation/NSObject+Rx+KVORepresentable.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9D3AF19FE9762F50128D131DBE5FD2 /* RxPickerViewAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxPickerViewAdapter.swift; path = RxCocoa/iOS/DataSources/RxPickerViewAdapter.swift; sourceTree = "<group>"; };
 		9F5CE72D082EBC93C1CC2F68DB1D6A4B /* ImageContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageContext.swift; path = Sources/SwiftUI/ImageContext.swift; sourceTree = "<group>"; };
+		A04994ACA13DE0BF000DD1CA0FE53409 /* Pods-KittyCatsApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KittyCatsApp.modulemap"; sourceTree = "<group>"; };
 		A04F070CF8E4F2BA0276C905D301877E /* NotificationCenter+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NotificationCenter+Rx.swift"; path = "RxCocoa/Foundation/NotificationCenter+Rx.swift"; sourceTree = "<group>"; };
 		A0B3A3484BAF06EEE69EE81C03E0E88F /* RxBlocking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxBlocking-Info.plist"; sourceTree = "<group>"; };
 		A11D3FC39D62041D048076C381F208C2 /* Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lock.swift; path = RxSwift/Concurrency/Lock.swift; sourceTree = "<group>"; };
@@ -816,16 +844,14 @@
 		A20F0B379451B4DDA6689224F73D2146 /* ShareReplayScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShareReplayScope.swift; path = RxSwift/Observables/ShareReplayScope.swift; sourceTree = "<group>"; };
 		A3DAB247CEBF3F962E218B2D49CBB5F7 /* TestSchedulerVirtualTimeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestSchedulerVirtualTimeConverter.swift; path = RxTest/Schedulers/TestSchedulerVirtualTimeConverter.swift; sourceTree = "<group>"; };
 		A4A6AECA5AE98A4F7887FB4AFEED9C24 /* Merge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Merge.swift; path = RxSwift/Observables/Merge.swift; sourceTree = "<group>"; };
-		A60CCF120CC2B568E6D278E25982EE09 /* Pods-KittyCatsApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KittyCatsApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		A66047F95625103E4F8BDE0BAFF15D12 /* KVORepresentable+CoreGraphics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "KVORepresentable+CoreGraphics.swift"; path = "RxCocoa/Foundation/KVORepresentable+CoreGraphics.swift"; sourceTree = "<group>"; };
-		A6C88E60DB0E7C04E1641756C552F916 /* Pods-KittyCatsApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KittyCatsApp.modulemap"; sourceTree = "<group>"; };
 		A6FCC1655DEB5C223F65AEB0C8AF7F06 /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryStorage.swift; path = Sources/Cache/MemoryStorage.swift; sourceTree = "<group>"; };
 		A764841DA9D89EC626F5B7878E3FD540 /* CombineLatest+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CombineLatest+arity.swift"; path = "RxSwift/Observables/CombineLatest+arity.swift"; sourceTree = "<group>"; };
-		A787680391AB9A84BE78DEE5053F1166 /* Pods-KittyCatsAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KittyCatsAppTests-umbrella.h"; sourceTree = "<group>"; };
 		A8FF549A5CA4337116504CE52C632E40 /* NSTextView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextView+Rx.swift"; path = "RxCocoa/macOS/NSTextView+Rx.swift"; sourceTree = "<group>"; };
 		AAD8EBFBD2BBE00D4CDBCF13B7A278B7 /* SessionDataTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDataTask.swift; path = Sources/Networking/SessionDataTask.swift; sourceTree = "<group>"; };
 		AAFED9F9B2A7B2EFCABAC8BC11E5E7F4 /* RxPickerViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxPickerViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxPickerViewDelegateProxy.swift; sourceTree = "<group>"; };
 		AB94A75397FAE1AF7E407BD5FE3E063A /* RxMutableBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxMutableBox.swift; path = RxSwift/RxMutableBox.swift; sourceTree = "<group>"; };
+		ABE7753CF3448FC27969A10B5640FA01 /* Pods-KittyCatsApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KittyCatsApp-frameworks.sh"; sourceTree = "<group>"; };
 		AC16C7BB33C5F44998CDA241A7BDF666 /* Pods-KittyCatsApp-KittyCatsAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KittyCatsApp-KittyCatsAppUITests"; path = Pods_KittyCatsApp_KittyCatsAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1D00A7B3EC9C11B314CB82F6E390E0 /* NSButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSButton+Kingfisher.swift"; path = "Sources/Extensions/NSButton+Kingfisher.swift"; sourceTree = "<group>"; };
 		AC87D625C0BE04CDE418A900EDD169A6 /* InvocableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvocableType.swift; path = RxSwift/Schedulers/Internal/InvocableType.swift; sourceTree = "<group>"; };
@@ -839,7 +865,6 @@
 		B23F65523E1539B24487812AA1F25BDE /* ImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProvider.swift; path = Sources/General/ImageSource/ImageDataProvider.swift; sourceTree = "<group>"; };
 		B2D5E3540B2C7F6696A15A1F65BF931E /* Timer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timer.swift; path = RxSwift/Observables/Timer.swift; sourceTree = "<group>"; };
 		B4BE8855399A27BBE87DCDB49B34210A /* ObservableConvertibleType+Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableConvertibleType+Signal.swift"; path = "RxCocoa/Traits/Signal/ObservableConvertibleType+Signal.swift"; sourceTree = "<group>"; };
-		B4DC8F9D7E5BE364D0AB1D0BCD553B9C /* Pods-KittyCatsAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KittyCatsAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B5CE0E9AAAADBD12D2204E8D6FD30BCB /* Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Driver.swift; path = RxCocoa/Traits/Driver/Driver.swift; sourceTree = "<group>"; };
 		B6DE503F3CBC6860DD21C80821FC43C7 /* Observable+Bind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Observable+Bind.swift"; path = "RxCocoa/Common/Observable+Bind.swift"; sourceTree = "<group>"; };
 		B6FC6CA179065D16C604061C1CA03F05 /* UITabBar+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBar+Rx.swift"; path = "RxCocoa/iOS/UITabBar+Rx.swift"; sourceTree = "<group>"; };
@@ -855,6 +880,7 @@
 		BC71A4AD836D65CA80F8B250BA5C48C1 /* RxSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxSwift-dummy.m"; sourceTree = "<group>"; };
 		BCF96D56BF002EE4ABB3D1B433CA53FE /* UISwitch+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISwitch+Rx.swift"; path = "RxCocoa/iOS/UISwitch+Rx.swift"; sourceTree = "<group>"; };
 		BCFC8A518ED642299C52486F4DAE76ED /* Debounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debounce.swift; path = RxSwift/Observables/Debounce.swift; sourceTree = "<group>"; };
+		BDE03718A269807E3CD3999A84453767 /* Pods-KittyCatsApp-KittyCatsAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KittyCatsApp-KittyCatsAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BE294490DF7C3B02F1CAB299BB58EC1C /* RxTableViewReactiveArrayDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewReactiveArrayDataSource.swift; path = RxCocoa/iOS/DataSources/RxTableViewReactiveArrayDataSource.swift; sourceTree = "<group>"; };
 		BE9D635D8F03846515108C7C2BA83ED3 /* Scan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scan.swift; path = RxSwift/Observables/Scan.swift; sourceTree = "<group>"; };
 		BFA2AFB2E4FD48F3CCCB93A5C7B25FEF /* Amb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Amb.swift; path = RxSwift/Observables/Amb.swift; sourceTree = "<group>"; };
@@ -867,11 +893,8 @@
 		C361261ED566048315ECF70658DDDCCD /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = Sources/General/ImageSource/Source.swift; sourceTree = "<group>"; };
 		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45F915DD0F67BC83CA23BF13E89017C /* PriorityQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriorityQueue.swift; path = Platform/DataStructures/PriorityQueue.swift; sourceTree = "<group>"; };
-		C47D6ABEC1B2577288BA8386D417D0FF /* Pods-KittyCatsApp-KittyCatsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KittyCatsApp-KittyCatsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		C4A20DE32ABC6B3FB4A76390CCB11FAD /* Pods-KittyCatsAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KittyCatsAppTests.modulemap"; sourceTree = "<group>"; };
 		C5523D35CBDD2D605628F2636BDC5387 /* ObserveOn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserveOn.swift; path = RxSwift/Observables/ObserveOn.swift; sourceTree = "<group>"; };
 		C56D58BF7AEA635634DCB81F0CCA9213 /* RxTableViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTableViewDelegateProxy.swift; sourceTree = "<group>"; };
-		C5FE67D9CC75FBE956A1FC536A67CF80 /* Pods-KittyCatsApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KittyCatsApp-dummy.m"; sourceTree = "<group>"; };
 		C635A7932D68D4AB13B4AA921CACAB44 /* ObservableConvertibleType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableConvertibleType.swift; path = RxSwift/ObservableConvertibleType.swift; sourceTree = "<group>"; };
 		C6770ECDE77188E6814AB2550AF70808 /* Platform.Linux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Linux.swift; path = Platform/Platform.Linux.swift; sourceTree = "<group>"; };
 		C67F5FF750DC29A5734E6F611FE875B2 /* ObservableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableType.swift; path = RxSwift/ObservableType.swift; sourceTree = "<group>"; };
@@ -885,7 +908,6 @@
 		CA68C4C05BC8228CF36CFEE753238F94 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = RxSwift/SwiftSupport/SwiftSupport.swift; sourceTree = "<group>"; };
 		CAF76F316F58BAED9A888CD483266983 /* StartWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StartWith.swift; path = RxSwift/Observables/StartWith.swift; sourceTree = "<group>"; };
 		CBA084C5C3598E7D329D1FC0688FBD01 /* Zip+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Zip+arity.swift"; path = "RxSwift/Observables/Zip+arity.swift"; sourceTree = "<group>"; };
-		CC69B4F9A1DC485B2AE48FC026B56226 /* Pods-KittyCatsAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KittyCatsAppTests-Info.plist"; sourceTree = "<group>"; };
 		CD0A5C1C8242ECCD0017369ED85B8C70 /* ImageFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFormat.swift; path = Sources/Image/ImageFormat.swift; sourceTree = "<group>"; };
 		CDBE7EF16FF4FCC83342B738E33D9420 /* CombineLatest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineLatest.swift; path = RxSwift/Observables/CombineLatest.swift; sourceTree = "<group>"; };
 		CDC4286B9EBD6D2A723B66C70DEB8415 /* Generate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generate.swift; path = RxSwift/Observables/Generate.swift; sourceTree = "<group>"; };
@@ -900,16 +922,15 @@
 		D2021677F38A063B9E81B3806463E884 /* Bag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = Platform/DataStructures/Bag.swift; sourceTree = "<group>"; };
 		D2AE249C8BB4AD289D784896168FA336 /* Deferred.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deferred.swift; path = RxSwift/Observables/Deferred.swift; sourceTree = "<group>"; };
 		D4BDC1320CE34E46D034F61B6054F8FE /* RxScrollViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxScrollViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxScrollViewDelegateProxy.swift; sourceTree = "<group>"; };
-		D4F1D085E133705759E6CB4C12AAF779 /* Pods-KittyCatsApp-KittyCatsAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KittyCatsApp-KittyCatsAppUITests-Info.plist"; sourceTree = "<group>"; };
 		D75DCA966F6FF229A1E61A1651E03AEC /* UIApplication+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Rx.swift"; path = "RxCocoa/iOS/UIApplication+Rx.swift"; sourceTree = "<group>"; };
 		D7A6CC07B99FCC187DAE9282E1F57CC3 /* RxCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxCocoa-prefix.pch"; sourceTree = "<group>"; };
 		D8692A59CC57502ACA3AF26CF8B61622 /* RxPickerViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxPickerViewDataSourceProxy.swift; path = RxCocoa/iOS/Proxies/RxPickerViewDataSourceProxy.swift; sourceTree = "<group>"; };
+		D9586BBE89A6A16CB80261F4A54B8F4B /* Pods-KittyCatsApp-KittyCatsAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KittyCatsApp-KittyCatsAppUITests-umbrella.h"; sourceTree = "<group>"; };
 		DA8F4F08E6223EC956AC6689D4B3FD4B /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/Cache/ImageCache.swift; sourceTree = "<group>"; };
 		DB457CD44B900529730FD4826F5EDB1E /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "Platform/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
 		DC7C64D2C7F4F161B3F6A4AC6450D3BA /* RetryWhen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryWhen.swift; path = RxSwift/Observables/RetryWhen.swift; sourceTree = "<group>"; };
 		DC8347B68E0C878F26C406215DAC3104 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/Image/ImageProcessor.swift; sourceTree = "<group>"; };
 		DCEFC533D39A6D86BB7AE0DED115BAFD /* ImageProgressive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProgressive.swift; path = Sources/Image/ImageProgressive.swift; sourceTree = "<group>"; };
-		DD9018B03603112C9F1D6723BE055F34 /* Pods-KittyCatsApp-KittyCatsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KittyCatsApp-KittyCatsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE062F3489A15C0E628467306FF3C0F2 /* GroupBy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupBy.swift; path = RxSwift/Observables/GroupBy.swift; sourceTree = "<group>"; };
 		DE31801D85AEFBECAD5E5BD84765EC8A /* SizeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeExtensions.swift; path = Sources/Utility/SizeExtensions.swift; sourceTree = "<group>"; };
 		DE326A03790F236F350283D7B2310554 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Image/Filter.swift; sourceTree = "<group>"; };
@@ -940,6 +961,7 @@
 		EC35E960C026631EA11131545119343E /* RxBlocking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxBlocking.debug.xcconfig; sourceTree = "<group>"; };
 		EC89D059A8181E9317422C131F74809A /* ObserverBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverBase.swift; path = RxSwift/Observers/ObserverBase.swift; sourceTree = "<group>"; };
 		ECA9E268AB5D03EE4ACDEA324AD2260A /* RxCocoa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RxCocoa.h; path = RxCocoa/RxCocoa.h; sourceTree = "<group>"; };
+		ED3795DEBB6F2BA88E707761E411CACF /* Pods-KittyCatsApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KittyCatsApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		EE5DF023CD78915FEA030332A415E877 /* PriorityQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriorityQueue.swift; path = Platform/DataStructures/PriorityQueue.swift; sourceTree = "<group>"; };
 		EE73DE0EA730D59093BA03DBA791DF9C /* Buffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Buffer.swift; path = RxSwift/Observables/Buffer.swift; sourceTree = "<group>"; };
 		EEF4E3CE2504AED6F20F0B9338FCF5BA /* RxTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxTest-dummy.m"; sourceTree = "<group>"; };
@@ -958,8 +980,8 @@
 		F95F94E6493EB36300B0E2FA17892CF5 /* Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signal.swift; path = RxCocoa/Traits/Signal/Signal.swift; sourceTree = "<group>"; };
 		F999FF640069B3C63F34AA193B7D757E /* ColdObservable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColdObservable.swift; path = RxTest/ColdObservable.swift; sourceTree = "<group>"; };
 		F9F2C7FD4097DA9900B95703E8C468AA /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/Cache/Storage.swift; sourceTree = "<group>"; };
-		FA6355A0B0EE080FA7567B1331A34E8B /* Pods-KittyCatsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KittyCatsAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		FA9D656048F21E5A6717827EA4217BA7 /* RxCollectionViewReactiveArrayDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewReactiveArrayDataSource.swift; path = RxCocoa/iOS/DataSources/RxCollectionViewReactiveArrayDataSource.swift; sourceTree = "<group>"; };
+		FB131C0ADFBFD1C5239F61EE5855241E /* Pods-KittyCatsAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KittyCatsAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FB6CF1860879C183E51D93E92BD9E0D7 /* RecursiveLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveLock.swift; path = Platform/RecursiveLock.swift; sourceTree = "<group>"; };
 		FBDA042FA4E9FFC337FEB6AE8D1CFC73 /* RxRelay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxRelay.debug.xcconfig; sourceTree = "<group>"; };
 		FBEED830D742E1C4BD746838DC53CA77 /* RecursiveLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveLock.swift; path = Platform/RecursiveLock.swift; sourceTree = "<group>"; };
@@ -992,11 +1014,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6571A5E28756D57E15CD94EBDA5DEFA7 /* Frameworks */ = {
+		60C1B392E767E32E67B2BF69DB7FCFF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A32D34AE1F0F2821B38D079C6CFF2CA /* Foundation.framework in Frameworks */,
+				AC7D412C32EE1660B3A315853E4DF4EC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1219,6 +1241,23 @@
 			path = RxSwift;
 			sourceTree = "<group>";
 		};
+		2200213D5C6111250AB02E89E2485C66 /* Pods-KittyCatsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				186D79828EB1BD9BB5EA01C451048CB4 /* Pods-KittyCatsAppTests.modulemap */,
+				6DC3863B05D7E8139B2BA836C004CC17 /* Pods-KittyCatsAppTests-acknowledgements.markdown */,
+				FB131C0ADFBFD1C5239F61EE5855241E /* Pods-KittyCatsAppTests-acknowledgements.plist */,
+				4DB9C62C9E8C558CB461AB9486FA2B88 /* Pods-KittyCatsAppTests-dummy.m */,
+				90AC98C68DCD42CA998A038136CA157D /* Pods-KittyCatsAppTests-frameworks.sh */,
+				3C38FAFB8C84C7246F5B34B1895F185B /* Pods-KittyCatsAppTests-Info.plist */,
+				8B784712E1B0814B473765D243754250 /* Pods-KittyCatsAppTests-umbrella.h */,
+				0AC63ADBE52A81497C62DC68B22AF1EC /* Pods-KittyCatsAppTests.debug.xcconfig */,
+				026C54FF53DE24CE654A543C9AB3B3A0 /* Pods-KittyCatsAppTests.release.xcconfig */,
+			);
+			name = "Pods-KittyCatsAppTests";
+			path = "Target Support Files/Pods-KittyCatsAppTests";
+			sourceTree = "<group>";
+		};
 		281450A22A33964239210E8710A977E3 /* RxTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -1262,23 +1301,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		35529FFC7144AA99078BBD41AD0F3E07 /* Pods-KittyCatsApp-KittyCatsAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5386381A5228A16CB41387B9C8FBCF15 /* Pods-KittyCatsApp-KittyCatsAppUITests.modulemap */,
-				029E94207E7000DBE56D9DD7D43AAE8A /* Pods-KittyCatsApp-KittyCatsAppUITests-acknowledgements.markdown */,
-				23D20D751B8DEE958B7ADE78995AF0DB /* Pods-KittyCatsApp-KittyCatsAppUITests-acknowledgements.plist */,
-				2EBEBC350FA7448FEA85A68A823E243C /* Pods-KittyCatsApp-KittyCatsAppUITests-dummy.m */,
-				9C560E7D20DFC6806F8DBBD8CD9AC5B8 /* Pods-KittyCatsApp-KittyCatsAppUITests-frameworks.sh */,
-				D4F1D085E133705759E6CB4C12AAF779 /* Pods-KittyCatsApp-KittyCatsAppUITests-Info.plist */,
-				71A15F7EDB20A52F5D3BB9EF510C37F9 /* Pods-KittyCatsApp-KittyCatsAppUITests-umbrella.h */,
-				DD9018B03603112C9F1D6723BE055F34 /* Pods-KittyCatsApp-KittyCatsAppUITests.debug.xcconfig */,
-				C47D6ABEC1B2577288BA8386D417D0FF /* Pods-KittyCatsApp-KittyCatsAppUITests.release.xcconfig */,
-			);
-			name = "Pods-KittyCatsApp-KittyCatsAppUITests";
-			path = "Target Support Files/Pods-KittyCatsApp-KittyCatsAppUITests";
-			sourceTree = "<group>";
-		};
 		49B2132EBF71B2AD2BAE0A1F77DA6A6D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1292,22 +1314,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RxRelay";
-			sourceTree = "<group>";
-		};
-		5EBD61CD942F8C20182840C70CA0A9D2 /* Pods-KittyCatsAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				C4A20DE32ABC6B3FB4A76390CCB11FAD /* Pods-KittyCatsAppTests.modulemap */,
-				4338497338CADA282B03611062AC12EA /* Pods-KittyCatsAppTests-acknowledgements.markdown */,
-				B4DC8F9D7E5BE364D0AB1D0BCD553B9C /* Pods-KittyCatsAppTests-acknowledgements.plist */,
-				894053D7F1BA60CB3A265BB525D75299 /* Pods-KittyCatsAppTests-dummy.m */,
-				CC69B4F9A1DC485B2AE48FC026B56226 /* Pods-KittyCatsAppTests-Info.plist */,
-				A787680391AB9A84BE78DEE5053F1166 /* Pods-KittyCatsAppTests-umbrella.h */,
-				82F9DF96D09D914F6D2D56818930FEEF /* Pods-KittyCatsAppTests.debug.xcconfig */,
-				FA6355A0B0EE080FA7567B1331A34E8B /* Pods-KittyCatsAppTests.release.xcconfig */,
-			);
-			name = "Pods-KittyCatsAppTests";
-			path = "Target Support Files/Pods-KittyCatsAppTests";
 			sourceTree = "<group>";
 		};
 		776B8602E5B3E9BC0AA5D8FDDBB6CE5B /* Support Files */ = {
@@ -1360,6 +1366,16 @@
 				E95B5CEF89BD7BFFC756A00BAF524D89 /* Support Files */,
 			);
 			path = RxBlocking;
+			sourceTree = "<group>";
+		};
+		87A9554BF090FA39630B0D1143BD2481 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5A6E6A6CFE68C6C0D99482BE839784E /* Pods-KittyCatsApp */,
+				C6A0FD873378F6744DDC7C426BCF6EDD /* Pods-KittyCatsApp-KittyCatsAppUITests */,
+				2200213D5C6111250AB02E89E2485C66 /* Pods-KittyCatsAppTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		8E6A65C8477D01C12275A5E2D3E18ABA /* Kingfisher */ = {
@@ -1429,16 +1445,6 @@
 				B5F609C6D8797E608ED382356577F746 /* Support Files */,
 			);
 			path = Kingfisher;
-			sourceTree = "<group>";
-		};
-		A480C59C57E7811627146C715FDB9AA7 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C3EEB08A274D0259C4A8C06DD80A7500 /* Pods-KittyCatsApp */,
-				35529FFC7144AA99078BBD41AD0F3E07 /* Pods-KittyCatsApp-KittyCatsAppUITests */,
-				5EBD61CD942F8C20182840C70CA0A9D2 /* Pods-KittyCatsAppTests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		A4C5A059FB72ED24D4AC6223CFAC0F1C /* RxCocoa */ = {
@@ -1597,21 +1603,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C3EEB08A274D0259C4A8C06DD80A7500 /* Pods-KittyCatsApp */ = {
+		C6A0FD873378F6744DDC7C426BCF6EDD /* Pods-KittyCatsApp-KittyCatsAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A6C88E60DB0E7C04E1641756C552F916 /* Pods-KittyCatsApp.modulemap */,
-				626E63C1695F3C0CFD7C0306C9F32671 /* Pods-KittyCatsApp-acknowledgements.markdown */,
-				A60CCF120CC2B568E6D278E25982EE09 /* Pods-KittyCatsApp-acknowledgements.plist */,
-				C5FE67D9CC75FBE956A1FC536A67CF80 /* Pods-KittyCatsApp-dummy.m */,
-				9B300A1C7A5F0F55FCD5957DF165B1E3 /* Pods-KittyCatsApp-frameworks.sh */,
-				6720D880BCEF2D0BD0D947AA69B552A3 /* Pods-KittyCatsApp-Info.plist */,
-				463C4E084CB95BAD9D9AA06344051158 /* Pods-KittyCatsApp-umbrella.h */,
-				7257EFE289F772079A177867BA33B349 /* Pods-KittyCatsApp.debug.xcconfig */,
-				27003CB3AF2C8C0C7AAFE6A0B30E256F /* Pods-KittyCatsApp.release.xcconfig */,
+				4C1D88C6D39F6D2D6C3209167A4DDF63 /* Pods-KittyCatsApp-KittyCatsAppUITests.modulemap */,
+				373C56B4A49CCAB3DF85F783650E11AB /* Pods-KittyCatsApp-KittyCatsAppUITests-acknowledgements.markdown */,
+				BDE03718A269807E3CD3999A84453767 /* Pods-KittyCatsApp-KittyCatsAppUITests-acknowledgements.plist */,
+				148E0B143891C4F3FF4AF423FE8FC62F /* Pods-KittyCatsApp-KittyCatsAppUITests-dummy.m */,
+				5A7D93CDE07AD5C44A3C6F0675DC9C22 /* Pods-KittyCatsApp-KittyCatsAppUITests-frameworks.sh */,
+				69497BEBAF652D7B890F043011818B4F /* Pods-KittyCatsApp-KittyCatsAppUITests-Info.plist */,
+				D9586BBE89A6A16CB80261F4A54B8F4B /* Pods-KittyCatsApp-KittyCatsAppUITests-umbrella.h */,
+				8EF17075187362311ED2FA621BA79179 /* Pods-KittyCatsApp-KittyCatsAppUITests.debug.xcconfig */,
+				92BE4EB6CDE1C47F47F3CD3A50128768 /* Pods-KittyCatsApp-KittyCatsAppUITests.release.xcconfig */,
 			);
-			name = "Pods-KittyCatsApp";
-			path = "Target Support Files/Pods-KittyCatsApp";
+			name = "Pods-KittyCatsApp-KittyCatsAppUITests";
+			path = "Target Support Files/Pods-KittyCatsApp-KittyCatsAppUITests";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -1621,7 +1627,7 @@
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				2E6F7AF57C81B3E50CDD22B88DCD73B3 /* Pods */,
 				BB8C6CE1B78F683B1FD4AC095D4F6E8F /* Products */,
-				A480C59C57E7811627146C715FDB9AA7 /* Targets Support Files */,
+				87A9554BF090FA39630B0D1143BD2481 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1636,6 +1642,23 @@
 				49B2132EBF71B2AD2BAE0A1F77DA6A6D /* Support Files */,
 			);
 			path = RxRelay;
+			sourceTree = "<group>";
+		};
+		E5A6E6A6CFE68C6C0D99482BE839784E /* Pods-KittyCatsApp */ = {
+			isa = PBXGroup;
+			children = (
+				A04994ACA13DE0BF000DD1CA0FE53409 /* Pods-KittyCatsApp.modulemap */,
+				5CD0794344CF80BCAAFF829F3B3E53E7 /* Pods-KittyCatsApp-acknowledgements.markdown */,
+				ED3795DEBB6F2BA88E707761E411CACF /* Pods-KittyCatsApp-acknowledgements.plist */,
+				4491BC7F41C885472F3A9E67EA8931C3 /* Pods-KittyCatsApp-dummy.m */,
+				ABE7753CF3448FC27969A10B5640FA01 /* Pods-KittyCatsApp-frameworks.sh */,
+				8D593A0D722DA4DECCA90F0D47BC78F5 /* Pods-KittyCatsApp-Info.plist */,
+				4F4C35FDBB1DC2165897E7974457E281 /* Pods-KittyCatsApp-umbrella.h */,
+				57A3AF555EDF192609A2E60A747A6F56 /* Pods-KittyCatsApp.debug.xcconfig */,
+				4B8DAF4E4DF0114B089F6137D8C94672 /* Pods-KittyCatsApp.release.xcconfig */,
+			);
+			name = "Pods-KittyCatsApp";
+			path = "Target Support Files/Pods-KittyCatsApp";
 			sourceTree = "<group>";
 		};
 		E95B5CEF89BD7BFFC756A00BAF524D89 /* Support Files */ = {
@@ -1712,14 +1735,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F24752E5F89FD91B36B8FF51DA6E0C0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4ED627F5E23D260513066C2C1A57CC5A /* Pods-KittyCatsAppTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		377C45EC4FFDD28D5065F8AA687BFCD5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1760,6 +1775,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E24880EF47228A5ED033AFA41BEE509B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C38ACC4BFD47208A810D90A4D707908 /* Pods-KittyCatsAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1784,17 +1807,20 @@
 		};
 		5055D017555AF5E93A0A9683CED9A5F5 /* Pods-KittyCatsAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3D5B5DF2C3CA57E27703E8EA916057E /* Build configuration list for PBXNativeTarget "Pods-KittyCatsAppTests" */;
+			buildConfigurationList = CB2239932533218D1D8798BA02AFD70A /* Build configuration list for PBXNativeTarget "Pods-KittyCatsAppTests" */;
 			buildPhases = (
-				2F24752E5F89FD91B36B8FF51DA6E0C0 /* Headers */,
-				BD7C3FB1662BB14F7C102A7E02DC3BE2 /* Sources */,
-				6571A5E28756D57E15CD94EBDA5DEFA7 /* Frameworks */,
-				E6064FC2FE556ABD869870FE5E62F898 /* Resources */,
+				E24880EF47228A5ED033AFA41BEE509B /* Headers */,
+				FDEEE4132732E66FE5EC69F3F5AADAED /* Sources */,
+				60C1B392E767E32E67B2BF69DB7FCFF8 /* Frameworks */,
+				3F8D8C0BE8537824BD6788F4D6E8F081 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F78EBAE1D6E1597C12944B86D965A1D9 /* PBXTargetDependency */,
+				15C130387919549348BB723F56B185CC /* PBXTargetDependency */,
+				9C7FCF5853ECAA2A129290886144E9AC /* PBXTargetDependency */,
+				CD9B53A5A07B76C39776E391774A2BAD /* PBXTargetDependency */,
+				6AB5FBE614D8D380452B97E817C22E5D /* PBXTargetDependency */,
 			);
 			name = "Pods-KittyCatsAppTests";
 			productName = Pods_KittyCatsAppTests;
@@ -1984,6 +2010,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3F8D8C0BE8537824BD6788F4D6E8F081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		92B491D2AC78FF7A7B44EF1E2302E8DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2027,13 +2060,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DFF62001963956ECE913410E678B61E1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6064FC2FE556ABD869870FE5E62F898 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2190,14 +2216,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6446DFE9D0CFDF390CB8102DDB66B22 /* Pods-KittyCatsApp-KittyCatsAppUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD7C3FB1662BB14F7C102A7E02DC3BE2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8CBAC0AB5DE6741B5AC1D9C301F900D4 /* Pods-KittyCatsAppTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2477,9 +2495,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDEEE4132732E66FE5EC69F3F5AADAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EC0D19042B9F35F4666638D27037FD /* Pods-KittyCatsAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		15C130387919549348BB723F56B185CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KittyCatsApp";
+			target = A031EA9E2B4527C87DA913CCA9BBD682 /* Pods-KittyCatsApp */;
+			targetProxy = BD39A2E6C9A6EAECD81FD6C494869B5D /* PBXContainerItemProxy */;
+		};
 		2A442A31FA70F9D18F9F9E549C03723B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RxRelay;
@@ -2503,6 +2535,12 @@
 			name = RxSwift;
 			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
 			targetProxy = B09099E7530EE18AE05B7107BC8B014F /* PBXContainerItemProxy */;
+		};
+		6AB5FBE614D8D380452B97E817C22E5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxTest;
+			target = C8D93C508E21FFD4EE60D335DD6C22E3 /* RxTest */;
+			targetProxy = 3B7790334F7220747018F07666073A03 /* PBXContainerItemProxy */;
 		};
 		6DCE8142B8BE6D0AC2C257BA1397C52D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2528,6 +2566,12 @@
 			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
 			targetProxy = 9684E31382AA2D5BA3D9B5159814E907 /* PBXContainerItemProxy */;
 		};
+		9C7FCF5853ECAA2A129290886144E9AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxBlocking;
+			target = F243B36381C0CE83CCFF789AC38F0D36 /* RxBlocking */;
+			targetProxy = E490A6176FE48EE97497CC9C10115878 /* PBXContainerItemProxy */;
+		};
 		AA795CC00CFC09C35E54D95C7E7F1249 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kingfisher;
@@ -2545,6 +2589,12 @@
 			name = RxSwift;
 			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
 			targetProxy = B365B5461242E9A3B14536A8540EC53F /* PBXContainerItemProxy */;
+		};
+		CD9B53A5A07B76C39776E391774A2BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxSwift;
+			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
+			targetProxy = B8056A30D6285B6CDB269FD5037D98C5 /* PBXContainerItemProxy */;
 		};
 		DEA625AA7ED49F562DB44C09EA04DE67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2569,12 +2619,6 @@
 			name = RxRelay;
 			target = 4622BFEF3DC16E8BD15EEFC30D4D0084 /* RxRelay */;
 			targetProxy = 465271D587BFE7D71BC21BDEF75EFBC0 /* PBXContainerItemProxy */;
-		};
-		F78EBAE1D6E1597C12944B86D965A1D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-KittyCatsApp";
-			target = A031EA9E2B4527C87DA913CCA9BBD682 /* Pods-KittyCatsApp */;
-			targetProxy = B78D5543E854F293FAC90FBD5562CB94 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2615,7 +2659,7 @@
 		};
 		17AE57E52F110E3E5896C7F9FB4928E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD9018B03603112C9F1D6723BE055F34 /* Pods-KittyCatsApp-KittyCatsAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 8EF17075187362311ED2FA621BA79179 /* Pods-KittyCatsApp-KittyCatsAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2650,46 +2694,9 @@
 			};
 			name = Debug;
 		};
-		30E6A0F972E6D59AC17A1151ACFF2E44 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82F9DF96D09D914F6D2D56818930FEEF /* Pods-KittyCatsAppTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4517E234E0A4A2C4536949822F2DC4DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C47D6ABEC1B2577288BA8386D417D0FF /* Pods-KittyCatsApp-KittyCatsAppUITests.release.xcconfig */;
+			baseConfigurationReference = 92BE4EB6CDE1C47F47F3CD3A50128768 /* Pods-KittyCatsApp-KittyCatsAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2859,44 +2866,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		69DBFB0D1039CE4BD6D89020727469E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA6355A0B0EE080FA7567B1331A34E8B /* Pods-KittyCatsAppTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		7736FD7FBD4DFAC349B82110A5859103 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3114,7 +3083,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Kingfisher/Kingfisher-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3150,7 +3119,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Kingfisher/Kingfisher-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3206,9 +3175,46 @@
 			};
 			name = Release;
 		};
+		D14066EA95A14872A55A248F45E7BA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC63ADBE52A81497C62DC68B22AF1EC /* Pods-KittyCatsAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D1FFD18163BFD324D0F4B81E5EC8F999 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7257EFE289F772079A177867BA33B349 /* Pods-KittyCatsApp.debug.xcconfig */;
+			baseConfigurationReference = 57A3AF555EDF192609A2E60A747A6F56 /* Pods-KittyCatsApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3243,9 +3249,47 @@
 			};
 			name = Debug;
 		};
+		D6DF5F98CA649790C2951649E8B527C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026C54FF53DE24CE654A543C9AB3B3A0 /* Pods-KittyCatsAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D871AE8D033E59429A8B90987067D13D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27003CB3AF2C8C0C7AAFE6A0B30E256F /* Pods-KittyCatsApp.release.xcconfig */;
+			baseConfigurationReference = 4B8DAF4E4DF0114B089F6137D8C94672 /* Pods-KittyCatsApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3434,11 +3478,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3D5B5DF2C3CA57E27703E8EA916057E /* Build configuration list for PBXNativeTarget "Pods-KittyCatsAppTests" */ = {
+		CB2239932533218D1D8798BA02AFD70A /* Build configuration list for PBXNativeTarget "Pods-KittyCatsAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30E6A0F972E6D59AC17A1151ACFF2E44 /* Debug */,
-				69DBFB0D1039CE4BD6D89020727469E7 /* Release */,
+				D14066EA95A14872A55A248F45E7BA3D /* Debug */,
+				D6DF5F98CA649790C2951649E8B527C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

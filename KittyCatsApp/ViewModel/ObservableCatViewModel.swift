@@ -9,13 +9,11 @@ import Foundation
 import RxCocoa
 import RxSwift
 
-class ObservableViewModel{
+class ObservableCatViewModel{
     
-    static let shared = ObservableViewModel()
-
+    static let shared = ObservableCatViewModel()
     public var catModels = BehaviorRelay<[CatViewModel]>(value: [])
-    let disposeBag = DisposeBag()
-
+    
     struct CatViewModel {
         
         var breeds: [CatBreeds]?
@@ -29,7 +27,6 @@ class ObservableViewModel{
                 for name in arrayBreeds {
                     self.name = name.name
                 }
-        
             }
             self.id = catModel.id
             self.url = catModel.url
@@ -38,25 +35,16 @@ class ObservableViewModel{
         }
     }
     
-    func fetchNewsForPicker() -> Observable<[CatViewModel]> {
+    func fetchCats() -> Observable<[CatViewModel]> {
         return Observable.create { observer in
             Service.shared.fetchData(){ result, err in
                 let newArray = result.map({return CatViewModel(catModel: $0)})
-                    observer.onNext(newArray)
-                    observer.onCompleted()
+                observer.onNext(newArray)
+                observer.onCompleted()
             }
             return Disposables.create()
         }
     }
     
-    func observableFetch() {
-        ObservableViewModel.shared.fetchNewsForPicker()
-            .observe(on: MainScheduler.instance)
-            .subscribe(onNext: { data in
-                var array = self.catModels.value
-                array.removeAll()
-                self.catModels.accept(data)
-            })
-            .disposed(by: disposeBag)
-    }
+    
 }

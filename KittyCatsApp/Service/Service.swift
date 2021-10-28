@@ -17,41 +17,23 @@ class Service {
         
         let request = URLRequest(url: url, cachePolicy: NSURLRequest.CachePolicy.reloadIgnoringLocalCacheData, timeoutInterval: 5.0)
         
-               URLSession.shared.dataTask(with: request as URLRequest) { (data, resp, err) in
-                   if let err = err {
-                       completion([], err)
-                       print("Failed to fetch news:", err)
-                       return
-                   }
-                   // check response
-                   guard let data = data else { return }
-                   do {
-                       let news = try JSONDecoder().decode([CatModel].self, from: data)
-                       DispatchQueue.main.async {
-                           completion(news, nil)
-                           print(news)
-                       }
-                   } catch let jsonErr {
-                       print("Failed to decode:", jsonErr)
-                   }
-                   }.resume()
-           }
+        URLSession.shared.dataTask(with: request as URLRequest) { (data, resp, err) in
+            if let err = err {
+                completion([], err)
+                print("Failed to fetch news:", err)
+                return
+            }
+            // check response
+            guard let data = data else { return }
+            do {
+                let news = try JSONDecoder().decode([CatModel].self, from: data)
+                DispatchQueue.main.async {
+                    completion(news, nil)
+                    print(news)
+                }
+            } catch let jsonErr {
+                print("Failed to decode:", jsonErr)
+            }
+        }.resume()
     }
-
-//    func fetchData(completion: @escaping ([CatModel]) -> Void) {
-// 1
-//        let url = API.baseUrl
-//        // 2
-//        var components = URLComponents(string: url)!
-//
-//        AF.request(components.url! as URLConvertible, method: .get).responseDecodable(
-//            of: Response.self) { response in
-//                print("DATA\(response)")
-//                guard let items = response.value else {
-//                    return completion([])
-//
-//                }
-//                DispatchQueue.main.async {
-//                    completion(items.sources)
-//                }
-//            }
+}

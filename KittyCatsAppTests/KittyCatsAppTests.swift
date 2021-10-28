@@ -6,28 +6,30 @@
 //
 
 import XCTest
+import RxCocoa
+import RxSwift
+import RxTest
+import RxBlocking
+
 @testable import KittyCatsApp
 
 class KittyCatsAppTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    var viewModel: ObservableCatViewModel!
+    var expectedResult: [ObservableCatViewModel.CatViewModel]!
+    var scheduler: TestScheduler!
+    var disposeBag: DisposeBag!
+    
+    override func setUp() {
+        viewModel = ObservableCatViewModel()
+        scheduler = TestScheduler(initialClock: 0)
+        disposeBag = DisposeBag()
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func testFetchedCats() throws {
+        
+        let result = try viewModel.fetchCats().toBlocking().first()
+        XCTAssertEqual(result!.count, 5)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
+    
 }

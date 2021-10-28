@@ -20,7 +20,7 @@
 		1DA4A26F27281C5C000B9E04 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A26E27281C5C000B9E04 /* API.swift */; };
 		1DA4A27127281C8E000B9E04 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4A27027281C8E000B9E04 /* Service.swift */; };
 		1DE97C64272826A700095F80 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE97C63272826A600095F80 /* MainTableViewCell.swift */; };
-		1DE97C66272829B100095F80 /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE97C65272829B100095F80 /* CatViewModel.swift */; };
+		1DE97C66272829B100095F80 /* ObservableCatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE97C65272829B100095F80 /* ObservableCatViewModel.swift */; };
 		781BF1F55D224DDF64827662 /* Pods_KittyCatsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFB3B2EDD433981E403C5F6 /* Pods_KittyCatsAppTests.framework */; };
 		92DB02C302BFF432F4DE034C /* Pods_KittyCatsApp_KittyCatsAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3413153B6A110B53A25A4C /* Pods_KittyCatsApp_KittyCatsAppUITests.framework */; };
 		AEDD32F0624C2AEADF26A87D /* Pods_KittyCatsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD7C666CEE49B15B83CC154 /* Pods_KittyCatsApp.framework */; };
@@ -61,7 +61,7 @@
 		1DA4A26E27281C5C000B9E04 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		1DA4A27027281C8E000B9E04 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		1DE97C63272826A600095F80 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
-		1DE97C65272829B100095F80 /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
+		1DE97C65272829B100095F80 /* ObservableCatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableCatViewModel.swift; sourceTree = "<group>"; };
 		28F9CAD8030F4422DA1D6BA2 /* Pods-KittyCatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KittyCatsApp.release.xcconfig"; path = "Target Support Files/Pods-KittyCatsApp/Pods-KittyCatsApp.release.xcconfig"; sourceTree = "<group>"; };
 		67609570B09900D925688A31 /* Pods-KittyCatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KittyCatsApp.debug.xcconfig"; path = "Target Support Files/Pods-KittyCatsApp/Pods-KittyCatsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		6D3413153B6A110B53A25A4C /* Pods_KittyCatsApp_KittyCatsAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KittyCatsApp_KittyCatsAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,7 +140,6 @@
 				1DA4A26A272809CB000B9E04 /* Model */,
 				1DA4A269272809BE000B9E04 /* ViewModel */,
 				1DA4A268272809B4000B9E04 /* View */,
-				1DA4A267272809A9000B9E04 /* Extensions */,
 				1DA4A234272806AA000B9E04 /* AppDelegate.swift */,
 				1DA4A236272806AA000B9E04 /* SceneDelegate.swift */,
 				1DA4A240272806AD000B9E04 /* Assets.xcassets */,
@@ -168,13 +167,6 @@
 			path = KittyCatsAppUITests;
 			sourceTree = "<group>";
 		};
-		1DA4A267272809A9000B9E04 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		1DA4A268272809B4000B9E04 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,7 +179,7 @@
 		1DA4A269272809BE000B9E04 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				1DE97C65272829B100095F80 /* CatViewModel.swift */,
+				1DE97C65272829B100095F80 /* ObservableCatViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -252,6 +244,7 @@
 				1DA4A246272806AE000B9E04 /* Sources */,
 				1DA4A247272806AE000B9E04 /* Frameworks */,
 				1DA4A248272806AE000B9E04 /* Resources */,
+				87659B758EDE9F4F5D8A8CBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -392,6 +385,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		87659B758EDE9F4F5D8A8CBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KittyCatsAppTests/Pods-KittyCatsAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A47283FC83E6EF8E63557164 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -465,7 +475,7 @@
 				1DE97C64272826A700095F80 /* MainTableViewCell.swift in Sources */,
 				1DA4A235272806AA000B9E04 /* AppDelegate.swift in Sources */,
 				1DA4A23F272806AA000B9E04 /* KittyCatsApp.xcdatamodeld in Sources */,
-				1DE97C66272829B100095F80 /* CatViewModel.swift in Sources */,
+				1DE97C66272829B100095F80 /* ObservableCatViewModel.swift in Sources */,
 				1DA4A26D27281A4C000B9E04 /* CatModel.swift in Sources */,
 				1DA4A26F27281C5C000B9E04 /* API.swift in Sources */,
 				1DA4A237272806AA000B9E04 /* SceneDelegate.swift in Sources */,
